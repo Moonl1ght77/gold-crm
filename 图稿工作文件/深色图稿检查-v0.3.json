@@ -1,0 +1,25 @@
+[
+  {
+    "file": "01-公司岗位协作图-v0.3-深色版.prg",
+    "text_nodes": 44,
+    "edges": 43,
+    "objects": 98,
+    "zip": "通过",
+    "references": "通过",
+    "dark_contrast": "通过",
+    "text_overlap": "无"
+  },
+  {
+    "file": "02-公司业务与MVP思维导图-v0.3-深色版.prg",
+    "text_nodes": 188,
+    "edges": 256,
+    "objects": 597,
+    "zip": "通过",
+    "references": "通过",
+    "dark_contrast": "通过",
+    "text_overlap": "无",
+    "annotation_regions": 105,
+    "annotation_overlap": "无",
+    "annotation_truncation": "无（18字号、4行、200宽度）"
+  }
+]

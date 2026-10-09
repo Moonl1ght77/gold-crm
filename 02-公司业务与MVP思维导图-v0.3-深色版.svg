@@ -1,0 +1,824 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4130" height="5741" viewBox="15 -65 4130 5741">
+<rect x="15" y="-65" width="4130" height="5741" fill="#0b1220"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="context-stroke"/></marker></defs>
+<rect x="88" y="328" width="1854" height="1225" rx="14" fill="#121d2d" stroke="#33465f" stroke-width="1"/>
+<rect x="102" y="328" width="1826" height="4" fill="#e7b866"/>
+<rect x="2218" y="328" width="1854" height="1225" rx="14" fill="#121d2d" stroke="#33465f" stroke-width="1"/>
+<rect x="2232" y="328" width="1826" height="4" fill="#79a8f5"/>
+<rect x="88" y="1638" width="1854" height="1225" rx="14" fill="#121d2d" stroke="#33465f" stroke-width="1"/>
+<rect x="102" y="1638" width="1826" height="4" fill="#6bc7b2"/>
+<rect x="2218" y="1638" width="1854" height="1225" rx="14" fill="#121d2d" stroke="#33465f" stroke-width="1"/>
+<rect x="2232" y="1638" width="1826" height="4" fill="#b49be7"/>
+<rect x="88" y="2948" width="1854" height="1225" rx="14" fill="#121d2d" stroke="#33465f" stroke-width="1"/>
+<rect x="102" y="2948" width="1826" height="4" fill="#79a8f5"/>
+<rect x="2218" y="2948" width="1854" height="1225" rx="14" fill="#121d2d" stroke="#33465f" stroke-width="1"/>
+<rect x="2232" y="2948" width="1826" height="4" fill="#6bc7b2"/>
+<rect x="88" y="4258" width="1854" height="1225" rx="14" fill="#121d2d" stroke="#33465f" stroke-width="1"/>
+<rect x="102" y="4258" width="1826" height="4" fill="#e7b866"/>
+<rect x="2218" y="4258" width="1854" height="1225" rx="14" fill="#121d2d" stroke="#33465f" stroke-width="1"/>
+<rect x="2232" y="4258" width="1826" height="4" fill="#79a8f5"/>
+<rect x="136" y="650" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="136" y="920" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="136" y="1190" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="750" y="650" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="750" y="920" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="750" y="1190" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="1364" y="650" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="1364" y="920" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="1364" y="1190" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2266" y="650" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2266" y="920" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2266" y="1190" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2880" y="650" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2880" y="920" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2880" y="1190" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="3494" y="650" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="3494" y="920" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="3494" y="1190" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="136" y="1960" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="136" y="2230" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="136" y="2500" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="750" y="1960" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="750" y="2230" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="750" y="2500" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="1364" y="1960" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="1364" y="2230" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="1364" y="2500" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2266" y="1960" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2266" y="2230" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2266" y="2500" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2880" y="1960" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2880" y="2230" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2880" y="2500" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="3494" y="1960" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="3494" y="2230" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="3494" y="2500" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="136" y="3270" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="136" y="3540" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="136" y="3810" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="750" y="3270" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="750" y="3540" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="750" y="3810" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="1364" y="3270" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="1364" y="3540" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="1364" y="3810" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2266" y="3270" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2266" y="3540" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2266" y="3810" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2880" y="3270" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2880" y="3540" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2880" y="3810" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="3494" y="3270" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="3494" y="3540" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="3494" y="3810" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="136" y="4580" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="136" y="4850" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="136" y="5120" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="750" y="4580" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="750" y="4850" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="750" y="5120" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="1364" y="4580" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="1364" y="4850" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="1364" y="5120" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2266" y="4580" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2266" y="4850" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2266" y="5120" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2880" y="4580" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2880" y="4850" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="2880" y="5120" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="3494" y="4580" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="3494" y="4850" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<rect x="3494" y="5120" width="558" height="224" rx="14" fill="#182639" stroke="#182639" stroke-width="1"/>
+<path d="M2080.0,150.48 L2080,401.5 L1903.86,401.5" fill="none" stroke="#64778f" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M415.0,453.93 C415.0,474.845 415.0,474.845 415.0,495.76" fill="none" stroke="#e7b866" stroke-width="2.4"/>
+<path d="M141.58,533.0 L116,533.0 L116,676.5 L141.58,676.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M141.58,533.0 L116,533.0 L116,946.5 L141.58,946.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M141.58,533.0 L116,533.0 L116,1216.5 L141.58,1216.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1029.0,453.93 C1029.0,474.845 1029.0,474.845 1029.0,495.76" fill="none" stroke="#e7b866" stroke-width="2.4"/>
+<path d="M755.58,533.0 L730,533.0 L730,676.5 L755.58,676.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M755.58,533.0 L730,533.0 L730,946.5 L755.58,946.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M755.58,533.0 L730,533.0 L730,1216.5 L755.58,1216.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1643.0,453.93 C1643.0,474.845 1643.0,474.845 1643.0,495.76" fill="none" stroke="#e7b866" stroke-width="2.4"/>
+<path d="M1369.58,533.0 L1344,533.0 L1344,676.5 L1369.58,676.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1369.58,533.0 L1344,533.0 L1344,946.5 L1369.58,946.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1369.58,533.0 L1344,533.0 L1344,1216.5 L1369.58,1216.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2080.0,150.48 L2080,401.5 L2256.14,401.5" fill="none" stroke="#64778f" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2545.0,453.93 C2545.0,474.845 2545.0,474.845 2545.0,495.76" fill="none" stroke="#79a8f5" stroke-width="2.4"/>
+<path d="M2271.58,533.0 L2246,533.0 L2246,676.5 L2271.58,676.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2271.58,533.0 L2246,533.0 L2246,946.5 L2271.58,946.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2271.58,533.0 L2246,533.0 L2246,1216.5 L2271.58,1216.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3159.0,453.93 C3159.0,474.845 3159.0,474.845 3159.0,495.76" fill="none" stroke="#79a8f5" stroke-width="2.4"/>
+<path d="M2885.58,533.0 L2860,533.0 L2860,676.5 L2885.58,676.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2885.58,533.0 L2860,533.0 L2860,946.5 L2885.58,946.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2885.58,533.0 L2860,533.0 L2860,1216.5 L2885.58,1216.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3773.0,453.93 C3773.0,474.845 3773.0,474.845 3773.0,495.76" fill="none" stroke="#79a8f5" stroke-width="2.4"/>
+<path d="M3499.58,533.0 L3474,533.0 L3474,676.5 L3499.58,676.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3499.58,533.0 L3474,533.0 L3474,946.5 L3499.58,946.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3499.58,533.0 L3474,533.0 L3474,1216.5 L3499.58,1216.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2080.0,150.48 L2080,1711.5 L1903.86,1711.5" fill="none" stroke="#64778f" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M415.0,1763.93 C415.0,1784.845 415.0,1784.845 415.0,1805.76" fill="none" stroke="#6bc7b2" stroke-width="2.4"/>
+<path d="M141.58,1843.0 L116,1843.0 L116,1986.5 L141.58,1986.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M141.58,1843.0 L116,1843.0 L116,2256.5 L141.58,2256.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M141.58,1843.0 L116,1843.0 L116,2526.5 L141.58,2526.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1029.0,1763.93 C1029.0,1784.845 1029.0,1784.845 1029.0,1805.76" fill="none" stroke="#6bc7b2" stroke-width="2.4"/>
+<path d="M755.58,1843.0 L730,1843.0 L730,1986.5 L755.58,1986.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M755.58,1843.0 L730,1843.0 L730,2256.5 L755.58,2256.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M755.58,1843.0 L730,1843.0 L730,2526.5 L755.58,2526.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1643.0,1763.93 C1643.0,1784.845 1643.0,1784.845 1643.0,1805.76" fill="none" stroke="#6bc7b2" stroke-width="2.4"/>
+<path d="M1369.58,1843.0 L1344,1843.0 L1344,1986.5 L1369.58,1986.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1369.58,1843.0 L1344,1843.0 L1344,2256.5 L1369.58,2256.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1369.58,1843.0 L1344,1843.0 L1344,2526.5 L1369.58,2526.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2080.0,150.48 L2080,1711.5 L2256.14,1711.5" fill="none" stroke="#64778f" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2545.0,1763.93 C2545.0,1784.845 2545.0,1784.845 2545.0,1805.76" fill="none" stroke="#b49be7" stroke-width="2.4"/>
+<path d="M2271.58,1843.0 L2246,1843.0 L2246,1986.5 L2271.58,1986.5" fill="none" stroke="#b49be7" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2271.58,1843.0 L2246,1843.0 L2246,2256.5 L2271.58,2256.5" fill="none" stroke="#b49be7" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2271.58,1843.0 L2246,1843.0 L2246,2526.5 L2271.58,2526.5" fill="none" stroke="#b49be7" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3159.0,1763.93 C3159.0,1784.845 3159.0,1784.845 3159.0,1805.76" fill="none" stroke="#b49be7" stroke-width="2.4"/>
+<path d="M2885.58,1843.0 L2860,1843.0 L2860,1986.5 L2885.58,1986.5" fill="none" stroke="#b49be7" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2885.58,1843.0 L2860,1843.0 L2860,2256.5 L2885.58,2256.5" fill="none" stroke="#b49be7" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2885.58,1843.0 L2860,1843.0 L2860,2526.5 L2885.58,2526.5" fill="none" stroke="#b49be7" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3773.0,1763.93 C3773.0,1784.845 3773.0,1784.845 3773.0,1805.76" fill="none" stroke="#b49be7" stroke-width="2.4"/>
+<path d="M3499.58,1843.0 L3474,1843.0 L3474,1986.5 L3499.58,1986.5" fill="none" stroke="#b49be7" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3499.58,1843.0 L3474,1843.0 L3474,2256.5 L3499.58,2256.5" fill="none" stroke="#b49be7" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3499.58,1843.0 L3474,1843.0 L3474,2526.5 L3499.58,2526.5" fill="none" stroke="#b49be7" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2080.0,150.48 L2080,3021.5 L1903.86,3021.5" fill="none" stroke="#64778f" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M415.0,3073.93 C415.0,3094.8450000000003 415.0,3094.8450000000003 415.0,3115.76" fill="none" stroke="#79a8f5" stroke-width="2.4"/>
+<path d="M141.58,3153.0 L116,3153.0 L116,3296.5 L141.58,3296.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M141.58,3153.0 L116,3153.0 L116,3566.5 L141.58,3566.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M141.58,3153.0 L116,3153.0 L116,3836.5 L141.58,3836.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1029.0,3073.93 C1029.0,3094.8450000000003 1029.0,3094.8450000000003 1029.0,3115.76" fill="none" stroke="#79a8f5" stroke-width="2.4"/>
+<path d="M755.58,3153.0 L730,3153.0 L730,3296.5 L755.58,3296.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M755.58,3153.0 L730,3153.0 L730,3566.5 L755.58,3566.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M755.58,3153.0 L730,3153.0 L730,3836.5 L755.58,3836.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1643.0,3073.93 C1643.0,3094.8450000000003 1643.0,3094.8450000000003 1643.0,3115.76" fill="none" stroke="#79a8f5" stroke-width="2.4"/>
+<path d="M1369.58,3153.0 L1344,3153.0 L1344,3296.5 L1369.58,3296.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1369.58,3153.0 L1344,3153.0 L1344,3566.5 L1369.58,3566.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1369.58,3153.0 L1344,3153.0 L1344,3836.5 L1369.58,3836.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2080.0,150.48 L2080,3021.5 L2256.14,3021.5" fill="none" stroke="#64778f" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2545.0,3073.93 C2545.0,3094.8450000000003 2545.0,3094.8450000000003 2545.0,3115.76" fill="none" stroke="#6bc7b2" stroke-width="2.4"/>
+<path d="M2271.58,3153.0 L2246,3153.0 L2246,3296.5 L2271.58,3296.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2271.58,3153.0 L2246,3153.0 L2246,3566.5 L2271.58,3566.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2271.58,3153.0 L2246,3153.0 L2246,3836.5 L2271.58,3836.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3159.0,3073.93 C3159.0,3094.8450000000003 3159.0,3094.8450000000003 3159.0,3115.76" fill="none" stroke="#6bc7b2" stroke-width="2.4"/>
+<path d="M2885.58,3153.0 L2860,3153.0 L2860,3296.5 L2885.58,3296.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2885.58,3153.0 L2860,3153.0 L2860,3566.5 L2885.58,3566.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2885.58,3153.0 L2860,3153.0 L2860,3836.5 L2885.58,3836.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3773.0,3073.93 C3773.0,3094.8450000000003 3773.0,3094.8450000000003 3773.0,3115.76" fill="none" stroke="#6bc7b2" stroke-width="2.4"/>
+<path d="M3499.58,3153.0 L3474,3153.0 L3474,3296.5 L3499.58,3296.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3499.58,3153.0 L3474,3153.0 L3474,3566.5 L3499.58,3566.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3499.58,3153.0 L3474,3153.0 L3474,3836.5 L3499.58,3836.5" fill="none" stroke="#6bc7b2" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2080.0,150.48 L2080,4331.5 L1903.86,4331.5" fill="none" stroke="#64778f" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M415.0,4383.93 C415.0,4404.845 415.0,4404.845 415.0,4425.76" fill="none" stroke="#e7b866" stroke-width="2.4"/>
+<path d="M141.58,4463.0 L116,4463.0 L116,4606.5 L141.58,4606.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M141.58,4463.0 L116,4463.0 L116,4876.5 L141.58,4876.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M141.58,4463.0 L116,4463.0 L116,5146.5 L141.58,5146.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1029.0,4383.93 C1029.0,4404.845 1029.0,4404.845 1029.0,4425.76" fill="none" stroke="#e7b866" stroke-width="2.4"/>
+<path d="M755.58,4463.0 L730,4463.0 L730,4606.5 L755.58,4606.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M755.58,4463.0 L730,4463.0 L730,4876.5 L755.58,4876.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M755.58,4463.0 L730,4463.0 L730,5146.5 L755.58,5146.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1643.0,4383.93 C1643.0,4404.845 1643.0,4404.845 1643.0,4425.76" fill="none" stroke="#e7b866" stroke-width="2.4"/>
+<path d="M1369.58,4463.0 L1344,4463.0 L1344,4606.5 L1369.58,4606.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1369.58,4463.0 L1344,4463.0 L1344,4876.5 L1369.58,4876.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M1369.58,4463.0 L1344,4463.0 L1344,5146.5 L1369.58,5146.5" fill="none" stroke="#e7b866" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2080.0,150.48 L2080,4331.5 L2256.14,4331.5" fill="none" stroke="#64778f" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2545.0,4383.93 C2545.0,4404.845 2545.0,4404.845 2545.0,4425.76" fill="none" stroke="#79a8f5" stroke-width="2.4"/>
+<path d="M2271.58,4463.0 L2246,4463.0 L2246,4606.5 L2271.58,4606.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2271.58,4463.0 L2246,4463.0 L2246,4876.5 L2271.58,4876.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2271.58,4463.0 L2246,4463.0 L2246,5146.5 L2271.58,5146.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3159.0,4383.93 C3159.0,4404.845 3159.0,4404.845 3159.0,4425.76" fill="none" stroke="#79a8f5" stroke-width="2.4"/>
+<path d="M2885.58,4463.0 L2860,4463.0 L2860,4606.5 L2885.58,4606.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2885.58,4463.0 L2860,4463.0 L2860,4876.5 L2885.58,4876.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M2885.58,4463.0 L2860,4463.0 L2860,5146.5 L2885.58,5146.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3773.0,4383.93 C3773.0,4404.845 3773.0,4404.845 3773.0,4425.76" fill="none" stroke="#79a8f5" stroke-width="2.4"/>
+<path d="M3499.58,4463.0 L3474,4463.0 L3474,4606.5 L3499.58,4606.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3499.58,4463.0 L3474,4463.0 L3474,4876.5 L3499.58,4876.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M3499.58,4463.0 L3474,4463.0 L3474,5146.5 L3499.58,5146.5" fill="none" stroke="#79a8f5" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="80" y="0" width="4000" height="152" rx="9" fill="#393324"/>
+<text x="108.0" y="76.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="64" font-weight="700" fill="#ffffff">黄金CRM｜公司业务全景与 MVP 架构</text>
+<text x="80" y="162.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">讨论设计稿｜门店＋小程序、自有工厂为已知事实；岗位、流程、计价与接口均待商家确认。</text>
+<rect x="80" y="185" width="1870" height="86" rx="9" fill="#182639"/>
+<text x="89.625" y="211.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">讨论设计稿 v0.3｜门店＋小程序经营、自有工厂已知。</text>
+<text x="89.625" y="244.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">具体负责人、计价、损耗、审批和接口规则待商家确认。</text>
+<rect x="2210" y="185" width="1870" height="86" rx="9" fill="#182639"/>
+<text x="2219.625" y="211.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">阅读顺序｜先看 01—04 公司职责，再看 05—08 业务与系统。</text>
+<text x="2219.625" y="244.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">深色主题组下展开具体记录与交接要求；连线表示主题归属。</text>
+<rect x="108" y="348" width="1814" height="107" rx="9" fill="#3d3020"/>
+<text x="127.6875" y="401.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="45" font-weight="700" fill="#ffffff">01｜产品与成本</text>
+<text x="108" y="465.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">把客户需求变成可制作方案，分开保留目标成本、历史成本与参考现价。</text>
+<rect x="136" y="495" width="558" height="76" rx="9" fill="#3d3020"/>
+<text x="150.0" y="533.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">产品方向与岗位</text>
+<text x="136" y="581.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">产品与设计承担建议职责，先收齐需求和制作限制，再形成方案。</text>
+<rect x="136" y="650" width="558" height="53" rx="9" fill="#182639"/>
+<text x="145.625" y="676.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">产品负责人</text>
+<text x="136" y="713.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">谁承接上新、停产和兼岗交接？</text>
+<rect x="136" y="755" width="558" height="119" rx="9" fill="#182639"/>
+<text x="145.625" y="781.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">建议负责系列、款式、目标客群及上新停产，接收销售</text>
+<text x="145.625" y="814.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">反馈与工艺限制；交付商品方向，实际负责人和兼岗关</text>
+<text x="145.625" y="847.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">系待商家确认。</text>
+<rect x="136" y="920" width="558" height="53" rx="9" fill="#182639"/>
+<text x="145.625" y="946.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">珠宝设计师</text>
+<text x="136" y="983.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">工厂能否按客户确认版本制作？</text>
+<rect x="136" y="1025" width="558" height="119" rx="9" fill="#182639"/>
+<text x="145.625" y="1051.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">建议维护图稿、尺寸、材料与工艺要求，和自有工厂核</text>
+<text x="145.625" y="1084.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">对可制作性；交付设计版本，并关联客户确认依据和后</text>
+<text x="145.625" y="1117.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">续变更。</text>
+<rect x="136" y="1190" width="558" height="53" rx="9" fill="#182639"/>
+<text x="145.625" y="1216.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">需求与反馈</text>
+<text x="136" y="1253.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">客诉与工艺限制是否进入设计？</text>
+<rect x="136" y="1295" width="558" height="119" rx="9" fill="#182639"/>
+<text x="145.625" y="1321.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">接收门店咨询、线上意向、定制需求及售后反馈，记录</text>
+<text x="145.625" y="1354.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">客户诉求与材料工艺限制；由产品岗位核实后转成设计</text>
+<text x="145.625" y="1387.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">输入。</text>
+<rect x="750" y="495" width="558" height="76" rx="9" fill="#3d3020"/>
+<text x="764.0" y="533.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">商品方案与版本</text>
+<text x="750" y="581.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">商品资料用于销售和制作，计划组成与确认版本一并交接。</text>
+<rect x="750" y="650" width="558" height="53" rx="9" fill="#182639"/>
+<text x="759.625" y="676.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">商品方案</text>
+<text x="750" y="713.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">销售与工厂拿到的是同一版吗？</text>
+<rect x="750" y="755" width="558" height="119" rx="9" fill="#182639"/>
+<text x="759.625" y="781.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">交付款式图、规格、材料标准组成、工艺要求与目标成</text>
+<text x="759.625" y="814.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">本，标明可用版本；销售与工厂核对资料齐全后分别报</text>
+<text x="759.625" y="847.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">价和制作。</text>
+<rect x="750" y="920" width="558" height="53" rx="9" fill="#182639"/>
+<text x="759.625" y="946.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">标准组成</text>
+<text x="750" y="983.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">配件单位与估算口径是否一致？</text>
+<rect x="750" y="1025" width="558" height="119" rx="9" fill="#182639"/>
+<text x="759.625" y="1051.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">按设计记录计划使用的黄金、宝石及其他配件，注明规</text>
+<text x="759.625" y="1084.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">格、数量和单位；用于估算与指导制作，不能替代实际</text>
+<text x="759.625" y="1117.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">用料记录。</text>
+<rect x="750" y="1190" width="558" height="53" rx="9" fill="#182639"/>
+<text x="759.625" y="1216.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">设计变更</text>
+<text x="750" y="1253.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">变更后的报价交期是否再确认？</text>
+<rect x="750" y="1295" width="558" height="119" rx="9" fill="#182639"/>
+<text x="759.625" y="1321.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">材料、尺寸或工艺改变时保留原版并登记新版本、原因</text>
+<text x="759.625" y="1354.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">和确认人；复核报价与交期影响，客户确认后再交工厂</text>
+<text x="759.625" y="1387.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">执行。</text>
+<rect x="1364" y="495" width="558" height="76" rx="9" fill="#3d3020"/>
+<text x="1378.0" y="533.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">成本与价格依据</text>
+<text x="1364" y="581.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">目标、实际历史成本和当前参考价分别保存，报价口径待核实。</text>
+<rect x="1364" y="650" width="558" height="53" rx="9" fill="#182639"/>
+<text x="1373.625" y="676.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">目标成本</text>
+<text x="1364" y="713.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">估算偏差有无工厂反馈依据？</text>
+<rect x="1364" y="755" width="558" height="119" rx="9" fill="#182639"/>
+<text x="1373.625" y="781.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">设计影响材料工艺成本及客户接受价格；保留目标成</text>
+<text x="1373.625" y="814.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">本、估算依据和工厂反馈，目标用于比较偏差，不代表</text>
+<text x="1373.625" y="847.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">实际成本。</text>
+<rect x="1364" y="920" width="558" height="53" rx="9" fill="#182639"/>
+<text x="1373.625" y="946.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">历史采购成本</text>
+<text x="1364" y="983.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">现价更新是否误改采购快照？</text>
+<rect x="1364" y="1025" width="558" height="119" rx="9" fill="#182639"/>
+<text x="1373.625" y="1051.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">按材料批次保留采购时点、实际价格、数量和凭据，成</text>
+<text x="1373.625" y="1084.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">本复核采用已确认记录；当前金价变化不能改写原采购</text>
+<text x="1373.625" y="1117.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">成本。</text>
+<rect x="1364" y="1190" width="558" height="53" rx="9" fill="#182639"/>
+<text x="1373.625" y="1216.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜现价与报价</text>
+<text x="1364" y="1253.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">报价时点与价源能否查证？</text>
+<rect x="1364" y="1295" width="558" height="119" rx="9" fill="#182639"/>
+<text x="1373.625" y="1321.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">当前参考金价单列来源与时间，确认报价另留当时版</text>
+<text x="1373.625" y="1354.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">本；纯度、计价重量、折扣和有效期等规则仍需商家核</text>
+<text x="1373.625" y="1387.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">实。</text>
+<rect x="108" y="1480" width="1814" height="53" rx="9" fill="#121d2d"/>
+<text x="117.625" y="1506.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">协作焦点｜把客户需求变成可制作方案，分开保留目标成本、历史成本与参考现价。</text>
+<rect x="2238" y="348" width="1814" height="107" rx="9" fill="#233954"/>
+<text x="2257.6875" y="401.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="45" font-weight="700" fill="#ffffff">02｜门店品牌线上销售</text>
+<text x="2238" y="465.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">门店与小程序渠道已知，岗位分工、报价及履约方式为待核实建议。</text>
+<rect x="2266" y="495" width="558" height="76" rx="9" fill="#233954"/>
+<text x="2280.0" y="533.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">渠道与销售岗位</text>
+<text x="2266" y="581.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">已知渠道承接客户需求，品牌、店长和顾问职责按商家组织落实。</text>
+<rect x="2266" y="650" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2275.625" y="676.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">经营渠道</text>
+<text x="2266" y="713.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">线上线索是否有顾问接续？</text>
+<rect x="2266" y="755" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2275.625" y="781.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">已知经营渠道为门店和小程序，记录线索来源及后续顾</text>
+<text x="2275.625" y="814.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">问跟进；渠道事实不代表已有同步接口，线上流程待商</text>
+<text x="2275.625" y="847.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">家核实。</text>
+<rect x="2266" y="920" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2275.625" y="946.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">品牌线上运营</text>
+<text x="2266" y="983.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">咨询预约交接后由谁跟进？</text>
+<rect x="2266" y="1025" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2275.625" y="1051.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">建议维护品牌内容、商品展示与活动，整理线上咨询、</text>
+<text x="2275.625" y="1084.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">意向和预约；交付带来源的客户线索，由门店或顾问接</text>
+<text x="2275.625" y="1117.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">续处理。</text>
+<rect x="2266" y="1190" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2275.625" y="1216.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">店长与顾问</text>
+<text x="2266" y="1253.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">例外折扣和异常由谁处理？</text>
+<rect x="2266" y="1295" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2275.625" y="1321.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">店长建议分配顾问、安排预约交付并处理权限内异常；</text>
+<text x="2275.625" y="1354.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">顾问记录需求、试戴、报价与售后，负责向下一岗位交</text>
+<text x="2275.625" y="1387.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">清业务。</text>
+<rect x="2880" y="495" width="558" height="76" rx="9" fill="#233954"/>
+<text x="2894.0" y="533.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">销售输入与确认</text>
+<text x="2880" y="581.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">先核对商品和履约条件，再把报价与客户意见形成可交接订单。</text>
+<rect x="2880" y="650" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2889.625" y="676.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">销售输入</text>
+<text x="2880" y="713.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">库存与交期依据是否仍可用？</text>
+<rect x="2880" y="755" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2889.625" y="781.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">顾问使用已确认商品资料、可售库存、成本参考和客户</text>
+<text x="2889.625" y="814.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">需求，向仓库或工厂核实交期与可制作条件；缺失项先</text>
+<text x="2889.625" y="847.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">补齐。</text>
+<rect x="2880" y="920" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2889.625" y="946.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">报价确认</text>
+<text x="2880" y="983.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">客户接受的是哪一版报价？</text>
+<rect x="2880" y="1025" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2889.625" y="1051.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">记录报价版本、商品或定制要求、计价依据、交期与客</text>
+<text x="2889.625" y="1084.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">户确认凭据；变更后重新核对，不能用口头意向代替成</text>
+<text x="2889.625" y="1117.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">交确认。</text>
+<rect x="2880" y="1190" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2889.625" y="1216.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">确认业务输出</text>
+<text x="2880" y="1253.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">未确认要求是否传到履约岗？</text>
+<rect x="2880" y="1295" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2889.625" y="1321.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">销售交付确认报价、订单编号、商品关联、交期及客户</text>
+<text x="2889.625" y="1354.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">要求，注明未确认事项；后续付款、制作、交付和售后</text>
+<text x="2889.625" y="1387.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">沿用该业务。</text>
+<rect x="3494" y="495" width="558" height="76" rx="9" fill="#233954"/>
+<text x="3508.0" y="533.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">对客工费与履约</text>
+<text x="3494" y="581.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">销售定价和工厂成本分别记录，现货与定制分支先作为建议验证。</text>
+<rect x="3494" y="650" width="558" height="53" rx="9" fill="#182639"/>
+<text x="3503.625" y="676.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">对客销售工费</text>
+<text x="3494" y="713.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">报价工费是否误当加工支出？</text>
+<rect x="3494" y="755" width="558" height="119" rx="9" fill="#182639"/>
+<text x="3503.625" y="781.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">向客户收取的销售工费作为报价组成单独记录，保留成</text>
+<text x="3503.625" y="814.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">交时点和金额依据；与工厂实际加工费分开，不能直接</text>
+<text x="3503.625" y="847.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">互相替代。</text>
+<rect x="3494" y="920" width="558" height="53" rx="9" fill="#182639"/>
+<text x="3503.625" y="946.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜现货与定制</text>
+<text x="3494" y="983.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">商家是否采用这两条履约路径？</text>
+<rect x="3494" y="1025" width="558" height="119" rx="9" fill="#182639"/>
+<text x="3503.625" y="1051.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">建议现货先核验库存并锁定，定制先确认设计再制作；</text>
+<text x="3503.625" y="1084.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">两类业务占比、客户确认节点和实际流转方式均待商家</text>
+<text x="3503.625" y="1117.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">确认。</text>
+<rect x="3494" y="1190" width="558" height="53" rx="9" fill="#182639"/>
+<text x="3503.625" y="1216.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">销售岗位交接</text>
+<text x="3494" y="1253.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">接收人是否确认版本和交期？</text>
+<rect x="3494" y="1295" width="558" height="119" rx="9" fill="#182639"/>
+<text x="3503.625" y="1321.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">向仓库或工厂交付明确商品、版本、数量与交期，向财</text>
+<text x="3503.625" y="1354.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">务交付成交和退款依据；交接写明经办人、时间及接收</text>
+<text x="3503.625" y="1387.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">结果。</text>
+<rect x="2238" y="1480" width="1814" height="53" rx="9" fill="#121d2d"/>
+<text x="2247.625" y="1506.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">协作焦点｜门店与小程序渠道已知，岗位分工、报价及履约方式为待核实建议。</text>
+<rect x="108" y="1658" width="1814" height="107" rx="9" fill="#1e3c36"/>
+<text x="127.6875" y="1711.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="45" font-weight="700" fill="#ffffff">03｜供应链与工厂</text>
+<text x="108" y="1775.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">自有工厂已知，采购、制作、质检与库存记录真实材料和交付事实。</text>
+<rect x="136" y="1805" width="558" height="76" rx="9" fill="#1e3c36"/>
+<text x="150.0" y="1843.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">采购与任务输入</text>
+<text x="136" y="1891.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">采购和工厂按确认任务交接，缺料、费用或交期影响需反馈。</text>
+<rect x="136" y="1960" width="558" height="53" rx="9" fill="#182639"/>
+<text x="145.625" y="1986.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">采购入库</text>
+<text x="136" y="2023.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">实收数量能否对上采购凭据？</text>
+<rect x="136" y="2065" width="558" height="119" rx="9" fill="#182639"/>
+<text x="145.625" y="2091.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">采购经办记录供应方、日期、材料规格、数量、价格与</text>
+<text x="145.625" y="2124.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">凭据，建立原料批次；仓库核验收货数量和位置后确认</text>
+<text x="145.625" y="2157.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">入库。</text>
+<rect x="136" y="2230" width="558" height="53" rx="9" fill="#182639"/>
+<text x="145.625" y="2256.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">工厂任务输入</text>
+<text x="136" y="2293.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">缺料或延期是否回到原岗位？</text>
+<rect x="136" y="2335" width="558" height="119" rx="9" fill="#182639"/>
+<text x="145.625" y="2361.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">工厂接收订单要求、设计版本、材料批次与交期，核对</text>
+<text x="145.625" y="2394.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">可制作条件；缺料或费用进度受影响时，交原岗位补充</text>
+<text x="145.625" y="2427.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">确认。</text>
+<rect x="136" y="2500" width="558" height="53" rx="9" fill="#182639"/>
+<text x="145.625" y="2526.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">自有工厂岗位</text>
+<text x="136" y="2563.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">领料制作的实际经办人是谁？</text>
+<rect x="136" y="2605" width="558" height="119" rx="9" fill="#182639"/>
+<text x="145.625" y="2631.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">自有工厂为已知经营条件，生产经办职责为建议：按确</text>
+<text x="145.625" y="2664.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">认版本领料制作，记录实际用料与任务进度；负责人待</text>
+<text x="145.625" y="2697.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">商家确认。</text>
+<rect x="750" y="1805" width="558" height="76" rx="9" fill="#1e3c36"/>
+<text x="764.0" y="1843.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">制作质检与输出</text>
+<text x="750" y="1891.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">实际费用、质量与生产结果形成证据，返工重新进入核验闭环。</text>
+<rect x="750" y="1960" width="558" height="53" rx="9" fill="#182639"/>
+<text x="759.625" y="1986.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜工厂实际工费</text>
+<text x="750" y="2023.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">单件工费分摊是否已有确认？</text>
+<rect x="750" y="2065" width="558" height="119" rx="9" fill="#182639"/>
+<text x="759.625" y="2091.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">按制作任务或成品记录实际发生的加工费用、经办人及</text>
+<text x="759.625" y="2124.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">凭据，交财务核实；单件分摊方法待确认，与对客工费</text>
+<text x="759.625" y="2157.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">分开。</text>
+<rect x="750" y="2230" width="558" height="53" rx="9" fill="#182639"/>
+<text x="759.625" y="2256.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">质检与返工</text>
+<text x="750" y="2293.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">返工件有无再次质检依据？</text>
+<rect x="750" y="2335" width="558" height="119" rx="9" fill="#182639"/>
+<text x="759.625" y="2361.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">质检复核成品是否符合确认版本，登记合格或返工及原</text>
+<text x="759.625" y="2394.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">因；返工关联原任务、新增用料费用和复检结果，合格</text>
+<text x="759.625" y="2427.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">后再交付。</text>
+<rect x="750" y="2500" width="558" height="53" rx="9" fill="#182639"/>
+<text x="759.625" y="2526.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">生产结果交接</text>
+<text x="750" y="2563.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">交付资格与成本依据齐全吗？</text>
+<rect x="750" y="2605" width="558" height="119" rx="9" fill="#182639"/>
+<text x="759.625" y="2631.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">工厂交付成品编号、质检结果、所在位置、实际用料、</text>
+<text x="759.625" y="2664.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">加工费与确认损耗；销售核对可交付状态，财务接收费</text>
+<text x="759.625" y="2697.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">用依据。</text>
+<rect x="1364" y="1805" width="558" height="76" rx="9" fill="#1e3c36"/>
+<text x="1378.0" y="1843.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">材料流转与处置</text>
+<text x="1364" y="1891.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">领退料、位置和在制状态分别核验，未查差异不能直接算损耗。</text>
+<rect x="1364" y="1960" width="558" height="53" rx="9" fill="#182639"/>
+<text x="1373.625" y="1986.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">领退料与调拨</text>
+<text x="1364" y="2023.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">同一退料是否被重复入库？</text>
+<rect x="1364" y="2065" width="558" height="119" rx="9" fill="#182639"/>
+<text x="1373.625" y="2091.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">仓库核对入库、领退料、调拨与盘点的批次、数量、位</text>
+<text x="1373.625" y="2124.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">置及交接人，保留凭据；余料与成品归位后避免重复计</text>
+<text x="1373.625" y="2157.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">入库存。</text>
+<rect x="1364" y="2230" width="558" height="53" rx="9" fill="#182639"/>
+<text x="1373.625" y="2256.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">在制与回收料</text>
+<text x="1364" y="2293.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">工序未结的材料是否仍有记录？</text>
+<rect x="1364" y="2335" width="558" height="119" rx="9" fill="#182639"/>
+<text x="1373.625" y="2361.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">制作中材料、退回余料和可回收料分别记录数量、状态</text>
+<text x="1373.625" y="2394.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">与位置，回收结果另记；工序未结清时不能把在制料算</text>
+<text x="1373.625" y="2427.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">作损耗。</text>
+<rect x="1364" y="2500" width="558" height="53" rx="9" fill="#182639"/>
+<text x="1373.625" y="2526.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">差异与确认损耗</text>
+<text x="1364" y="2563.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">待查差额有无被提前判为损耗？</text>
+<rect x="1364" y="2605" width="558" height="119" rx="9" fill="#182639"/>
+<text x="1373.625" y="2631.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">计量差异先标待核对，登记原因、责任人和复核依据；</text>
+<text x="1373.625" y="2664.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">仅经确认的实际损耗计入损耗记录，允许标准不能代替</text>
+<text x="1373.625" y="2697.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">实际结果。</text>
+<rect x="108" y="2790" width="1814" height="53" rx="9" fill="#121d2d"/>
+<text x="117.625" y="2816.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">协作焦点｜自有工厂已知，采购、制作、质检与库存记录真实材料和交付事实。</text>
+<rect x="2238" y="1658" width="1814" height="107" rx="9" fill="#352d49"/>
+<text x="2257.6875" y="1711.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="45" font-weight="700" fill="#ffffff">04｜财务与资金</text>
+<text x="2238" y="1775.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">核对实际成本与订单资金，毛利、收款和公司净利保持不同口径。</text>
+<rect x="2266" y="1805" width="558" height="76" rx="9" fill="#352d49"/>
+<text x="2280.0" y="1843.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">财务岗位与凭据</text>
+<text x="2266" y="1891.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">经办补充资金事实，财务复核成本和凭据，异常退回对应岗位。</text>
+<rect x="2266" y="1960" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2275.625" y="1986.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">财务成本复核</text>
+<text x="2266" y="2023.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">异常成本退回后由谁核清？</text>
+<rect x="2266" y="2065" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2275.625" y="2091.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">财务建议核对采购、制作、订单及退款凭据，汇总确认</text>
+<text x="2275.625" y="2124.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">成本并标记异常；差异退回相应岗位核实，再将结果交</text>
+<text x="2275.625" y="2157.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">经营看板。</text>
+<rect x="2266" y="2230" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2275.625" y="2256.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜资金经办与复核</text>
+<text x="2266" y="2293.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">到账确认与退款权限由谁负责？</text>
+<rect x="2266" y="2335" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2275.625" y="2361.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">收款经办记录方式、时间、金额和凭据，复核人核验到</text>
+<text x="2275.625" y="2394.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">账事实与订单应收；确认权限及退款审批边界由商家确</text>
+<text x="2275.625" y="2427.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">定。</text>
+<rect x="2266" y="2500" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2275.625" y="2526.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">财务输入凭据</text>
+<text x="2266" y="2563.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">缺凭据项目能否找到补交人？</text>
+<rect x="2266" y="2605" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2275.625" y="2631.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">接收采购入库、实际用料、加工费、确认损耗、成交、</text>
+<text x="2275.625" y="2664.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">交付及收退款记录；逐项关联业务编号，缺少依据先标</text>
+<text x="2275.625" y="2697.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">待补。</text>
+<rect x="2880" y="1805" width="558" height="76" rx="9" fill="#352d49"/>
+<text x="2894.0" y="1843.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">实际成本确认</text>
+<text x="2880" y="1891.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">材料和各项费用分别核对，回收价值与成本分摊须经商家确认。</text>
+<rect x="2880" y="1960" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2889.625" y="1986.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜成本项目与口径</text>
+<text x="2880" y="2023.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">缺失费用是否仍显示待确认？</text>
+<rect x="2880" y="2065" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2889.625" y="2091.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">材料、工厂加工、确认损耗及其他费用分项留存来源与</text>
+<text x="2889.625" y="2124.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">金额，注明确认状态；税费及未计费用单列，具体成本</text>
+<text x="2889.625" y="2157.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">口径待核实。</text>
+<rect x="2880" y="2230" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2889.625" y="2256.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜费用分摊依据</text>
+<text x="2880" y="2293.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">共用费用分摊版本能否追查？</text>
+<rect x="2880" y="2335" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2889.625" y="2361.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">任务共用费用如何落到单件须由商家和财务确认，保留</text>
+<text x="2889.625" y="2394.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">分配依据、版本与复核人；不以销售工费或现价代替实</text>
+<text x="2889.625" y="2427.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">际加工成本。</text>
+<rect x="2880" y="2500" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2889.625" y="2526.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜回收与损耗成本</text>
+<text x="2880" y="2563.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">回收价值与费用有无重复计算？</text>
+<rect x="2880" y="2605" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2889.625" y="2631.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">余料、回收料与确认损耗分别关联材料记录，回收价值</text>
+<text x="2889.625" y="2664.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">及成本处理待商家确认；未查差异先核对，避免重复计</text>
+<text x="2889.625" y="2697.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">作费用。</text>
+<rect x="3494" y="1805" width="558" height="76" rx="9" fill="#352d49"/>
+<text x="3508.0" y="1843.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">订单资金与结果</text>
+<text x="3494" y="1891.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">应收实收退款按订单核对，经营结果注明成本和费用覆盖范围。</text>
+<rect x="3494" y="1960" width="558" height="53" rx="9" fill="#182639"/>
+<text x="3503.625" y="1986.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜应收实收退款</text>
+<text x="3494" y="2023.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">定金尾款与退款条件确认了吗？</text>
+<rect x="3494" y="2065" width="558" height="119" rx="9" fill="#182639"/>
+<text x="3503.625" y="2091.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">订单应收、实际到账和退款分别记录金额、时间、方式</text>
+<text x="3503.625" y="2124.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">及凭据，关联同一业务；定金尾款和退款条件需按商家</text>
+<text x="3503.625" y="2157.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">规则核实。</text>
+<rect x="3494" y="2230" width="558" height="53" rx="9" fill="#182639"/>
+<text x="3503.625" y="2256.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">未结款与差异</text>
+<text x="3494" y="2293.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">已交付是否被误作已到账？</text>
+<rect x="3494" y="2335" width="558" height="119" rx="9" fill="#182639"/>
+<text x="3503.625" y="2361.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">按订单显示未结清款项、核对差异与处理状态，注明经</text>
+<text x="3503.625" y="2394.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">办和复核人；财务将核对结果交店长或老板，不凭订单</text>
+<text x="3503.625" y="2427.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">状态推定到账。</text>
+<rect x="3494" y="2500" width="558" height="53" rx="9" fill="#182639"/>
+<text x="3503.625" y="2526.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">毛利资金净利</text>
+<text x="3494" y="2563.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">毛利口径遗漏了哪些经营费用？</text>
+<rect x="3494" y="2605" width="558" height="119" rx="9" fill="#182639"/>
+<text x="3503.625" y="2631.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">预计及成交毛利注明对应收入与约定成本口径，实收单</text>
+<text x="3503.625" y="2664.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">独反映资金；未计经营费用时不称公司净利，缺失费用</text>
+<text x="3503.625" y="2697.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">须可见。</text>
+<rect x="2238" y="2790" width="1814" height="53" rx="9" fill="#121d2d"/>
+<text x="2247.625" y="2816.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">协作焦点｜核对实际成本与订单资金，毛利、收款和公司净利保持不同口径。</text>
+<rect x="108" y="2968" width="1814" height="107" rx="9" fill="#233954"/>
+<text x="127.6875" y="3021.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="45" font-weight="700" fill="#ffffff">05｜客户订单全链路</text>
+<text x="108" y="3085.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">同一客户与业务编号串起需求、确认、履约和售后，保留变化依据。</text>
+<rect x="136" y="3115" width="558" height="76" rx="9" fill="#233954"/>
+<text x="150.0" y="3153.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">客户预约与跟进</text>
+<text x="136" y="3201.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">客户档案承接多次业务，顾问按来源和需求持续补充跟进事实。</text>
+<rect x="136" y="3270" width="558" height="53" rx="9" fill="#182639"/>
+<text x="145.625" y="3296.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">客户档案</text>
+<text x="136" y="3333.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">同名客户是否能靠编号分辨？</text>
+<rect x="136" y="3375" width="558" height="119" rx="9" fill="#182639"/>
+<text x="145.625" y="3401.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">用客户编号关联联系方式、意向商品、预约、订单和售</text>
+<text x="145.625" y="3434.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">后，避免同名混淆；各岗位按权限补充记录，沿用同一</text>
+<text x="145.625" y="3467.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">客户关系。</text>
+<rect x="136" y="3540" width="558" height="53" rx="9" fill="#182639"/>
+<text x="145.625" y="3566.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">预约与顾问分配</text>
+<text x="136" y="3603.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">预约转交后是否有人接单？</text>
+<rect x="136" y="3645" width="558" height="119" rx="9" fill="#182639"/>
+<text x="145.625" y="3671.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">记录预约渠道、时间、需求和负责顾问，店长建议安排</text>
+<text x="145.625" y="3704.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">接待与交付；交接后保留接收人及处理状态，实际分配</text>
+<text x="145.625" y="3737.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">规则待确认。</text>
+<rect x="136" y="3810" width="558" height="53" rx="9" fill="#182639"/>
+<text x="145.625" y="3836.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">沟通与再次购买</text>
+<text x="136" y="3873.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">再次跟进是否关联原业务？</text>
+<rect x="136" y="3915" width="558" height="119" rx="9" fill="#182639"/>
+<text x="145.625" y="3941.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">顾问记录咨询、试戴、确认意见和待办，关联意向商品</text>
+<text x="145.625" y="3974.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">及业务编号；交付后继续跟进售后与再次购买，保留每</text>
+<text x="145.625" y="4007.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">次处理结果。</text>
+<rect x="750" y="3115" width="558" height="76" rx="9" fill="#233954"/>
+<text x="764.0" y="3153.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">订单履约与交付</text>
+<text x="750" y="3201.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">确认订单关联设计和具体商品，付款、生产、交付分别记录状态。</text>
+<rect x="750" y="3270" width="558" height="53" rx="9" fill="#182639"/>
+<text x="759.625" y="3296.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">订单依据</text>
+<text x="750" y="3333.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">订单能否对应客户确认凭据？</text>
+<rect x="750" y="3375" width="558" height="119" rx="9" fill="#182639"/>
+<text x="759.625" y="3401.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">每笔订单关联客户、确认报价、商品或定制要求、设计</text>
+<text x="759.625" y="3434.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">版本与交期；经办核对确认凭据齐全，后续履约沿用可</text>
+<text x="759.625" y="3467.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">追溯编号。</text>
+<rect x="750" y="3540" width="558" height="53" rx="9" fill="#182639"/>
+<text x="759.625" y="3566.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">独立业务状态</text>
+<text x="750" y="3603.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">付款完成是否误带动交付完成？</text>
+<rect x="750" y="3645" width="558" height="119" rx="9" fill="#182639"/>
+<text x="759.625" y="3671.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">付款、生产和交付各自保留当前状态、更新时间与确认</text>
+<text x="759.625" y="3704.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">人，避免相互推定完成；状态变化关联原记录和实际发</text>
+<text x="759.625" y="3737.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">生凭据。</text>
+<rect x="750" y="3810" width="558" height="53" rx="9" fill="#182639"/>
+<text x="759.625" y="3836.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">锁定与交付确认</text>
+<text x="750" y="3873.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">锁定成品与实际交付是否一致？</text>
+<rect x="750" y="3915" width="558" height="119" rx="9" fill="#182639"/>
+<text x="759.625" y="3941.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">仓库或门店核验具体成品、位置与可交付状态，记录锁</text>
+<text x="759.625" y="3974.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">定和交付数量、时间及接收依据；缺料或延期分派责任</text>
+<text x="759.625" y="4007.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">人处理。</text>
+<rect x="1364" y="3115" width="558" height="76" rx="9" fill="#233954"/>
+<text x="1378.0" y="3153.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">取消退货与售后</text>
+<text x="1364" y="3201.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">异常业务保留原订单与已发生事实，按负责人处理并复核关闭。</text>
+<rect x="1364" y="3270" width="558" height="53" rx="9" fill="#182639"/>
+<text x="1373.625" y="3296.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜订单取消</text>
+<text x="1364" y="3333.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">取消后资金与库存处置对上吗？</text>
+<rect x="1364" y="3375" width="558" height="119" rx="9" fill="#182639"/>
+<text x="1373.625" y="3401.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">取消记录原因、申请人、确认人及时间，保留原报价、</text>
+<text x="1373.625" y="3434.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">制作事实与已发生费用；核对库存释放和收退款，处理</text>
+<text x="1373.625" y="3467.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">规则待商家确认。</text>
+<rect x="1364" y="3540" width="558" height="53" rx="9" fill="#182639"/>
+<text x="1373.625" y="3566.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜退货与复检</text>
+<text x="1364" y="3603.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">退回实物是否对应原订单？</text>
+<rect x="1364" y="3645" width="558" height="119" rx="9" fill="#182639"/>
+<text x="1373.625" y="3671.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">退货关联原订单与成品，核验数量、位置、质量及退款</text>
+<text x="1373.625" y="3704.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">依据；复检结果决定后续处置，保留已发生费用和原交</text>
+<text x="1373.625" y="3737.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">付记录。</text>
+<rect x="1364" y="3810" width="558" height="53" rx="9" fill="#182639"/>
+<text x="1373.625" y="3836.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">异常售后闭环</text>
+<text x="1364" y="3873.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">异常处理后有无复核关闭？</text>
+<rect x="1364" y="3915" width="558" height="119" rx="9" fill="#182639"/>
+<text x="1373.625" y="3941.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">缺料、延期、返工和服务问题登记原因、负责人、处理</text>
+<text x="1373.625" y="3974.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">期限与结果，关联原业务；顾问协调相关岗位，完成后</text>
+<text x="1373.625" y="4007.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">由复核人关闭。</text>
+<rect x="108" y="4100" width="1814" height="53" rx="9" fill="#121d2d"/>
+<text x="117.625" y="4126.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">协作焦点｜同一客户与业务编号串起需求、确认、履约和售后，保留变化依据。</text>
+<rect x="2238" y="2968" width="1814" height="107" rx="9" fill="#1e3c36"/>
+<text x="2257.6875" y="3021.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="45" font-weight="700" fill="#ffffff">06｜批次与复合商品数据</text>
+<text x="2238" y="3085.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">分类、来源和实物独立建档，以实际用料连接，区分物理与成本追溯。</text>
+<rect x="2266" y="3115" width="558" height="76" rx="9" fill="#1e3c36"/>
+<text x="2280.0" y="3153.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">分类批次与实物</text>
+<text x="2266" y="3201.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">材料描述规格，批次记来源价格，系列款式与具体成品各有身份。</text>
+<rect x="2266" y="3270" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2275.625" y="3296.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">材料与原料批次</text>
+<text x="2266" y="3333.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">材料规格与采购来源分开了吗？</text>
+<rect x="2266" y="3375" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2275.625" y="3401.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">材料记录类型、规格、纯度与单位，批次记录来源、采</text>
+<text x="2275.625" y="3434.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">购日期、实际价格和数量；独立编号管理，不把系列当</text>
+<text x="2275.625" y="3467.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">作材料来源。</text>
+<rect x="2266" y="3540" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2275.625" y="3566.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">系列与款式</text>
+<text x="2266" y="3603.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">系列分类是否误当来源归属？</text>
+<rect x="2266" y="3645" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2275.625" y="3671.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">系列用于品牌和经营分类，款式表达设计方案并关联版</text>
+<text x="2275.625" y="3704.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">本；同一系列可使用多个原料批次，分类关系不能代替</text>
+<text x="2275.625" y="3737.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">用料证据。</text>
+<rect x="2266" y="3810" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2275.625" y="3836.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">规格与具体成品</text>
+<text x="2266" y="3873.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">实物编号能否对应质检与库存？</text>
+<rect x="2266" y="3915" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2275.625" y="3941.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">款式下记录尺寸等规格，每件成品保留独立编号、实际</text>
+<text x="2275.625" y="3974.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">重量、制作任务与库存位置；销售和质检均关联该件实</text>
+<text x="2275.625" y="4007.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">物。</text>
+<rect x="2880" y="3115" width="558" height="76" rx="9" fill="#1e3c36"/>
+<text x="2894.0" y="3153.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">复合组成与用料</text>
+<text x="2880" y="3201.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">计划组成服务设计，实际用料连接材料批次与单件，允许多对多。</text>
+<rect x="2880" y="3270" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2889.625" y="3296.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">复合商品组成</text>
+<text x="2880" y="3333.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">多种材料是否使用了各自单位？</text>
+<rect x="2880" y="3375" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2889.625" y="3401.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">商品可由黄金、宝石及其他配件组成，计划部分引用标</text>
+<text x="2889.625" y="3434.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">准组成，实际部分关联用料；各材料规格和计量单位分</text>
+<text x="2889.625" y="3467.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">别核对。</text>
+<rect x="2880" y="3540" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2889.625" y="3566.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">实际用料记录</text>
+<text x="2880" y="3603.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">计划与实耗偏差能否解释？</text>
+<rect x="2880" y="3645" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2889.625" y="3671.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">每条实际用料记录连接任务、成品、材料批次、数量与</text>
+<text x="2889.625" y="3704.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">单位，保留领退料和确认依据；与标准组成不同须记录</text>
+<text x="2889.625" y="3737.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">原因。</text>
+<rect x="2880" y="3810" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2889.625" y="3836.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">系列批次多对多</text>
+<text x="2880" y="3873.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">多对多关系能否沿实际用料查证？</text>
+<rect x="2880" y="3915" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2889.625" y="3941.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">一批材料可用于多个系列或多件成品，一件也可使用多</text>
+<text x="2889.625" y="3974.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">个批次；系列与批次经成品及实际用料连接，没有固定</text>
+<text x="2889.625" y="4007.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">父子关系。</text>
+<rect x="3494" y="3115" width="558" height="76" rx="9" fill="#1e3c36"/>
+<text x="3508.0" y="3153.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">追溯限制与口径</text>
+<text x="3494" y="3201.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">混料物理来源和成本分配分开，黄金净重与混合成品总重不互替。</text>
+<rect x="3494" y="3270" width="558" height="53" rx="9" fill="#182639"/>
+<text x="3503.625" y="3296.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜混料物理追溯</text>
+<text x="3494" y="3333.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">混料后哪些来源已无法还原？</text>
+<rect x="3494" y="3375" width="558" height="119" rx="9" fill="#182639"/>
+<text x="3503.625" y="3401.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">混料或熔炼记录投入批次及承接材料，单件来源可能无</text>
+<text x="3503.625" y="3434.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">法精确还原；如实标明可追溯范围，不能把成本分配当</text>
+<text x="3503.625" y="3467.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">作物理事实。</text>
+<rect x="3494" y="3540" width="558" height="53" rx="9" fill="#182639"/>
+<text x="3503.625" y="3566.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜混料成本分配</text>
+<text x="3494" y="3603.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">分配口径是否经财务复核？</text>
+<rect x="3494" y="3645" width="558" height="119" rx="9" fill="#182639"/>
+<text x="3503.625" y="3671.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">混料后如何向任务和单件分配成本须经商家与财务确</text>
+<text x="3503.625" y="3704.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">认，保留规则版本和审核依据；与投入批次的物理来源</text>
+<text x="3503.625" y="3737.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">记录分开。</text>
+<rect x="3494" y="3810" width="558" height="53" rx="9" fill="#182639"/>
+<text x="3503.625" y="3836.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">净重与总重口径</text>
+<text x="3494" y="3873.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">配件重量是否混进黄金净重？</text>
+<rect x="3494" y="3915" width="558" height="119" rx="9" fill="#182639"/>
+<text x="3503.625" y="3941.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">分别记录黄金净重和含宝石配件的成品总重，核对材</text>
+<text x="3503.625" y="3974.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">料、纯度、规格、单位与称量口径；不同口径不能直接</text>
+<text x="3503.625" y="4007.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">合并核算。</text>
+<rect x="2238" y="4100" width="1814" height="53" rx="9" fill="#121d2d"/>
+<text x="2247.625" y="4126.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">协作焦点｜分类、来源和实物独立建档，以实际用料连接，区分物理与成本追溯。</text>
+<rect x="108" y="4278" width="1814" height="107" rx="9" fill="#3d3020"/>
+<text x="127.6875" y="4331.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="45" font-weight="700" fill="#ffffff">07｜经营看板与100g案例</text>
+<text x="108" y="4395.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">看板支持证据下钻，100g仅为虚构演示，不是商家或行业损耗标准。</text>
+<rect x="136" y="4425" width="558" height="76" rx="9" fill="#3d3020"/>
+<text x="150.0" y="4463.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">经营视图与下钻</text>
+<text x="136" y="4511.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">从批次、系列和订单查看材料与经营结果，异常能回到原记录。</text>
+<rect x="136" y="4580" width="558" height="53" rx="9" fill="#182639"/>
+<text x="145.625" y="4606.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">批次材料总盘</text>
+<text x="136" y="4643.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">核对｜在制与待查差异是否遗漏。</text>
+<rect x="136" y="4685" width="558" height="119" rx="9" fill="#182639"/>
+<text x="145.625" y="4711.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">按批次查看采购时点、历史价格、原量、在库、在制、</text>
+<text x="145.625" y="4744.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">成品占用、余料、回收料及确认损耗；未查差异单列待</text>
+<text x="145.625" y="4777.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">核对。</text>
+<rect x="136" y="4850" width="558" height="53" rx="9" fill="#182639"/>
+<text x="145.625" y="4876.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">系列与订单总盘</text>
+<text x="136" y="4913.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">参考价与毛利资金有没有混算？</text>
+<rect x="136" y="4955" width="558" height="119" rx="9" fill="#182639"/>
+<text x="145.625" y="4981.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">按系列查看单件、库存、已售及订单，历史成本、现价</text>
+<text x="145.625" y="5014.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">参考变化、订单毛利和资金分开显示；缺失费用和价格</text>
+<text x="145.625" y="5047.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">时点可见。</text>
+<rect x="136" y="5120" width="558" height="53" rx="9" fill="#182639"/>
+<text x="145.625" y="5146.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜异常与记录下钻</text>
+<text x="136" y="5183.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">异常能否找到调查凭据和主责？</text>
+<rect x="136" y="5225" width="558" height="119" rx="9" fill="#182639"/>
+<text x="145.625" y="5251.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">材料差异、超目标成本、毛利变化和延期可追到任务、</text>
+<text x="145.625" y="5284.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">用料、批次或收退款凭据；阈值与责任人待确认，保留</text>
+<text x="145.625" y="5317.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">调查结果。</text>
+<rect x="750" y="4425" width="558" height="76" rx="9" fill="#3d3020"/>
+<text x="764.0" y="4463.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">虚构数量与核对</text>
+<text x="750" y="4511.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">同材料规格与计量口径且工序结清时演示平衡，示例比例不作标准。</text>
+<rect x="750" y="4580" width="558" height="53" rx="9" fill="#182639"/>
+<text x="759.625" y="4606.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">虚构演示｜100g演示前提</text>
+<text x="750" y="4643.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">同口径与工序结清前提成立吗？</text>
+<rect x="750" y="4685" width="558" height="119" rx="9" fill="#182639"/>
+<text x="759.625" y="4711.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">虚构采购100g黄金，仅演示同材料、规格、计量口径</text>
+<text x="759.625" y="4744.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">且工序结清的数量核对；不虚构采购金额，也不作为行</text>
+<text x="759.625" y="4777.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">业损耗标准。</text>
+<rect x="750" y="4850" width="558" height="53" rx="9" fill="#182639"/>
+<text x="759.625" y="4876.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">虚构演示｜结清数量核对</text>
+<text x="750" y="4913.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">在制未清是否仍套用示例平衡？</text>
+<rect x="750" y="4955" width="558" height="119" rx="9" fill="#182639"/>
+<text x="759.625" y="4981.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">100g＝90g净含金＋5g余料＋3g回收料＋2g确认损</text>
+<text x="759.625" y="5014.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">耗，仅为虚构结清结果；在制或未查差异仍须另列核</text>
+<text x="759.625" y="5047.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">对。</text>
+<rect x="750" y="5120" width="558" height="53" rx="9" fill="#182639"/>
+<text x="759.625" y="5146.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">虚构演示｜各项数量归属</text>
+<text x="750" y="5183.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">回收料是否被直接当作损耗？</text>
+<rect x="750" y="5225" width="558" height="119" rx="9" fill="#182639"/>
+<text x="759.625" y="5251.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">90g为成品黄金净重，5g余料仍属库存，3g回收料单</text>
+<text x="759.625" y="5284.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">列去向，2g须核对后确认损耗；成品总重不能替代净</text>
+<text x="759.625" y="5317.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">含金。</text>
+<rect x="1364" y="4425" width="558" height="76" rx="9" fill="#3d3020"/>
+<text x="1378.0" y="4463.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">演示完整业务链</text>
+<text x="1364" y="4511.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">用同一虚构批次跨系列制作与销售，逐步检查凭据和历史记录。</text>
+<rect x="1364" y="4580" width="558" height="53" rx="9" fill="#182639"/>
+<text x="1373.625" y="4606.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">虚构演示｜采购与系列示例</text>
+<text x="1364" y="4643.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">系列演示是否仍保留批次联系？</text>
+<rect x="1364" y="4685" width="558" height="119" rx="9" fill="#182639"/>
+<text x="1373.625" y="4711.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">为100g批次登记采购日期、实际价格与入库凭据；A为</text>
+<text x="1373.625" y="4744.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">纯金示例，B含B1至B4款式可配其他材料，用量按任务</text>
+<text x="1373.625" y="4777.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">记录。</text>
+<rect x="1364" y="4850" width="558" height="53" rx="9" fill="#182639"/>
+<text x="1373.625" y="4876.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">虚构演示｜制作与单件追溯</text>
+<text x="1364" y="4913.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">每件成品能否查到任务用料？</text>
+<rect x="1364" y="4955" width="558" height="119" rx="9" fill="#182639"/>
+<text x="1373.625" y="4981.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">各任务关联设计版本、领退料、其他材料、实际加工费</text>
+<text x="1373.625" y="5014.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">和质检结果，每件成品能找到实际用料；混料追溯按已</text>
+<text x="1373.625" y="5047.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">知范围说明。</text>
+<rect x="1364" y="5120" width="558" height="53" rx="9" fill="#182639"/>
+<text x="1373.625" y="5146.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">虚构演示｜销售后结果复核</text>
+<text x="1364" y="5183.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">参考涨跌是否误写成实际收益？</text>
+<rect x="1364" y="5225" width="558" height="119" rx="9" fill="#182639"/>
+<text x="1373.625" y="5251.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">成品销售后关联订单、交付与收款，分别核对历史成</text>
+<text x="1373.625" y="5284.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">本、当前金价参考变化和成交毛利；价格变化不改写历</text>
+<text x="1373.625" y="5317.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">史业务记录。</text>
+<rect x="108" y="5410" width="1814" height="53" rx="9" fill="#121d2d"/>
+<text x="117.625" y="5436.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">协作焦点｜看板支持证据下钻，100g仅为虚构演示，不是商家或行业损耗标准。</text>
+<rect x="2238" y="4278" width="1814" height="107" rx="9" fill="#233954"/>
+<text x="2257.6875" y="4331.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="45" font-weight="700" fill="#ffffff">08｜MVP范围与验收</text>
+<text x="2238" y="4395.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">先验证内部协作全链路，治理与关键留痕纳入首版，接口继续待定。</text>
+<rect x="2266" y="4425" width="558" height="76" rx="9" fill="#233954"/>
+<text x="2280.0" y="4463.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">首版覆盖与边界</text>
+<text x="2266" y="4511.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">客户订单、商品制作和资金追溯先贯通，人工录入验证内部业务。</text>
+<rect x="2266" y="4580" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2275.625" y="4606.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">首版核心协作</text>
+<text x="2266" y="4643.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">同笔业务是否被各岗重复建档？</text>
+<rect x="2266" y="4685" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2275.625" y="4711.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">首版覆盖客户跟进、商品版本、批次用料、工厂质检、</text>
+<text x="2275.625" y="4744.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">订单交付、收退款及看板；各岗补充同一业务事实，按</text>
+<text x="2275.625" y="4777.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">权限确认。</text>
+<rect x="2266" y="4850" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2275.625" y="4876.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">录入与核对导入</text>
+<text x="2266" y="4913.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">导入记录能否回查核验来源？</text>
+<rect x="2266" y="4955" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2275.625" y="4981.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">首版先用人工录入和经核对的导入建立客户、商品、批</text>
+<text x="2275.625" y="5014.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">次及订单记录，保留来源与核验状态；内部业务验证不</text>
+<text x="2275.625" y="5047.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">依赖接口。</text>
+<rect x="2266" y="5120" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2275.625" y="5146.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">暂缓功能范围</text>
+<text x="2266" y="5183.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">讨论范围是否被误当开发承诺？</text>
+<rect x="2266" y="5225" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2275.625" y="5251.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">本轮交付业务图与首版设计底稿，完整排程、会计税</text>
+<text x="2275.625" y="5284.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">务、薪酬、自动经营决策及接口实现暂缓；具体业务规</text>
+<text x="2275.625" y="5317.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">则待商家核实。</text>
+<rect x="2880" y="4425" width="558" height="76" rx="9" fill="#233954"/>
+<text x="2894.0" y="4463.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">治理岗位与记录</text>
+<text x="2880" y="4511.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">岗位允许兼任，但每次交接、审核及异常处理都要指定责任人。</text>
+<rect x="2880" y="4580" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2889.625" y="4606.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">经营与人员支持</text>
+<text x="2880" y="4643.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">目标预算与审批边界由谁决定？</text>
+<rect x="2880" y="4685" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2889.625" y="4711.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">老板建议确定经营目标、预算及审批边界，行政维护人</text>
+<text x="2889.625" y="4744.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">员、岗位和制度；产品采购销售策略根据经营结果调</text>
+<text x="2889.625" y="4777.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">整，职责待确认。</text>
+<rect x="2880" y="4850" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2889.625" y="4876.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜责任与审核权限</text>
+<text x="2880" y="4913.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">兼岗时主责与复核是否仍明确？</text>
+<rect x="2880" y="4955" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2889.625" y="4981.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">每步明确主责、复核人和兼岗关系，核实设计、领退</text>
+<text x="2889.625" y="5014.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">料、质检、损耗、资金及成本审批；金额和异常权限边</text>
+<text x="2889.625" y="5047.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">界由商家确定。</text>
+<rect x="2880" y="5120" width="558" height="53" rx="9" fill="#182639"/>
+<text x="2889.625" y="5146.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">权限留痕与备份</text>
+<text x="2880" y="5183.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">关键更改能否追回原版与经办？</text>
+<rect x="2880" y="5225" width="558" height="119" rx="9" fill="#182639"/>
+<text x="2889.625" y="5251.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">按岗位控制查看和确认，交接保留编号、状态、时间、</text>
+<text x="2889.625" y="5284.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">经办人、数量和附件；关键审核更改留版本，支持备份</text>
+<text x="2889.625" y="5317.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">与数据导出。</text>
+<rect x="3494" y="4425" width="558" height="76" rx="9" fill="#233954"/>
+<text x="3508.0" y="4463.0" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#ffffff">验收与同步待定</text>
+<text x="3494" y="4511.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">验收一笔业务和变更依据，商家确认流程后再明确小程序同步。</text>
+<rect x="3494" y="4580" width="558" height="53" rx="9" fill="#182639"/>
+<text x="3503.625" y="4606.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">一笔业务到底</text>
+<text x="3494" y="4643.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">单件下钻能否解释数量与差异？</text>
+<rect x="3494" y="4685" width="558" height="119" rx="9" fill="#182639"/>
+<text x="3503.625" y="4711.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">①成品可追到实际用料、来源批次和数量。</text>
+<text x="3503.625" y="4744.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">②差异标记待核对或已确认，并保留依据。</text>
+<text x="3503.625" y="4777.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">③金价参考、毛利、收退款分别展示。</text>
+<rect x="3494" y="4850" width="558" height="53" rx="9" fill="#182639"/>
+<text x="3503.625" y="4876.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">变更保留依据</text>
+<text x="3494" y="4913.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">追加返工费后能否查原成本？</text>
+<rect x="3494" y="4955" width="558" height="119" rx="9" fill="#182639"/>
+<text x="3503.625" y="4981.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">①变更可查旧版本、客户确认及时间记录。</text>
+<text x="3503.625" y="5014.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">②返工费用追加，首次成本及依据保留。</text>
+<text x="3503.625" y="5047.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">③取消／退货可查原订单及处置结果。</text>
+<rect x="3494" y="5120" width="558" height="53" rx="9" fill="#182639"/>
+<text x="3503.625" y="5146.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">待确认｜小程序同步待定</text>
+<text x="3494" y="5183.8" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#b6c6da">后台授权与同步范围确认了吗？</text>
+<rect x="3494" y="5225" width="558" height="119" rx="9" fill="#182639"/>
+<text x="3503.625" y="5251.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">小程序后台归属、授权接口、数据导出与支付模式均待</text>
+<text x="3503.625" y="5284.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">核实，预约、订单和进度同步范围后续单独确认；首版</text>
+<text x="3503.625" y="5317.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#ffffff">不承诺接入。</text>
+<rect x="2238" y="5410" width="1814" height="53" rx="9" fill="#121d2d"/>
+<text x="2247.625" y="5436.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">协作焦点｜先验证内部协作全链路，治理与关键留痕纳入首版，接口继续待定。</text>
+<rect x="80" y="5525" width="4000" height="86" rx="9" fill="#182639"/>
+<text x="89.625" y="5551.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">边界与口径｜历史采购成本、当前参考金价、预计／成交毛利、实际收款分别保留；未计经营费用时不称净利润。</text>
+<text x="89.625" y="5584.5" text-anchor="start" dominant-baseline="central" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#ffffff">100g 材料平衡是虚构示例，2g 损耗不是商家或行业标准；小程序同步仍待定。</text>
+</svg>

@@ -1,0 +1,1886 @@
+{
+  "result": {
+    "file": "01-公司岗位协作图-v0.3-深色版.prg",
+    "native_open": "通过",
+    "text_nodes": 44,
+    "loaded_objects": 98,
+    "all_text_matches": "通过",
+    "native_text_overlap": "无",
+    "runtime_port": 59058
+  },
+  "objects": [
+    {
+      "color": [
+        57,
+        51,
+        36,
+        1
+      ],
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "ref": "n1",
+      "size": {
+        "height": 152,
+        "width": 3440
+      },
+      "text": "黄金CRM｜公司岗位协作与业务交接",
+      "type": "Y"
+    },
+    {
+      "color": [
+        24,
+        38,
+        57,
+        1
+      ],
+      "position": {
+        "x": 0,
+        "y": 175
+      },
+      "ref": "n2",
+      "size": {
+        "height": 52.25,
+        "width": 3440
+      },
+      "text": "讨论设计稿 · 2026-10-09｜按职责分工，可一人兼岗；流程为建议，具体负责人、报价与审批规则待商家确认。",
+      "type": "Y"
+    },
+    {
+      "color": [
+        38,
+        51,
+        69,
+        1
+      ],
+      "position": {
+        "x": 0,
+        "y": 235
+      },
+      "ref": "n3",
+      "size": {
+        "height": 52.25,
+        "width": 1690
+      },
+      "text": "经营负责人｜目标、产品方向与预算",
+      "type": "Y"
+    },
+    {
+      "color": [
+        38,
+        51,
+        69,
+        1
+      ],
+      "position": {
+        "x": 1750,
+        "y": 235
+      },
+      "ref": "n4",
+      "size": {
+        "height": 52.25,
+        "width": 1690
+      },
+      "text": "经营负责人｜价格例外、超预算、重大损耗与退款审批（条件待定）",
+      "type": "Y"
+    },
+    {
+      "color": [
+        38,
+        51,
+        69,
+        1
+      ],
+      "position": {
+        "x": 270,
+        "y": 345
+      },
+      "ref": "n5",
+      "size": {
+        "height": 52.25,
+        "width": 450
+      },
+      "text": "01｜需求登记",
+      "type": "Y"
+    },
+    {
+      "color": [
+        38,
+        51,
+        69,
+        1
+      ],
+      "position": {
+        "x": 790,
+        "y": 345
+      },
+      "ref": "n6",
+      "size": {
+        "height": 52.25,
+        "width": 450
+      },
+      "text": "02｜方案报价",
+      "type": "Y"
+    },
+    {
+      "color": [
+        38,
+        51,
+        69,
+        1
+      ],
+      "position": {
+        "x": 1310,
+        "y": 345
+      },
+      "ref": "n7",
+      "size": {
+        "height": 52.25,
+        "width": 450
+      },
+      "text": "03｜确认立单",
+      "type": "Y"
+    },
+    {
+      "color": [
+        38,
+        51,
+        69,
+        1
+      ],
+      "position": {
+        "x": 1830,
+        "y": 345
+      },
+      "ref": "n8",
+      "size": {
+        "height": 52.25,
+        "width": 450
+      },
+      "text": "04｜备货与生产",
+      "type": "Y"
+    },
+    {
+      "color": [
+        38,
+        51,
+        69,
+        1
+      ],
+      "position": {
+        "x": 2350,
+        "y": 345
+      },
+      "ref": "n9",
+      "size": {
+        "height": 52.25,
+        "width": 450
+      },
+      "text": "05｜质检与交付",
+      "type": "Y"
+    },
+    {
+      "color": [
+        38,
+        51,
+        69,
+        1
+      ],
+      "position": {
+        "x": 2870,
+        "y": 345
+      },
+      "ref": "n10",
+      "size": {
+        "height": 52.25,
+        "width": 450
+      },
+      "text": "06｜售后与复盘",
+      "type": "Y"
+    },
+    {
+      "color": [
+        61,
+        48,
+        32,
+        1
+      ],
+      "position": {
+        "x": 0,
+        "y": 460
+      },
+      "ref": "n11",
+      "size": {
+        "height": 118.25,
+        "width": 205
+      },
+      "text": "产品与成本\n产品负责人\n珠宝设计师",
+      "type": "Y"
+    },
+    {
+      "color": [
+        35,
+        57,
+        84,
+        1
+      ],
+      "position": {
+        "x": 0,
+        "y": 920
+      },
+      "ref": "n12",
+      "size": {
+        "height": 118.25,
+        "width": 205
+      },
+      "text": "销售与利润\n品牌／线上运营\n店长／门店顾问",
+      "type": "Y"
+    },
+    {
+      "color": [
+        30,
+        60,
+        54,
+        1
+      ],
+      "position": {
+        "x": 0,
+        "y": 1380
+      },
+      "ref": "n13",
+      "size": {
+        "height": 118.25,
+        "width": 205
+      },
+      "text": "供应链与商品\n采购／工厂\n质检／仓库",
+      "type": "Y"
+    },
+    {
+      "color": [
+        53,
+        45,
+        73,
+        1
+      ],
+      "position": {
+        "x": 0,
+        "y": 2335
+      },
+      "ref": "n14",
+      "size": {
+        "height": 118.25,
+        "width": 205
+      },
+      "text": "财务与资金\n收款核对\n成本复核",
+      "type": "Y"
+    },
+    {
+      "color": [
+        61,
+        48,
+        32,
+        1
+      ],
+      "position": {
+        "x": 790,
+        "y": 460
+      },
+      "ref": "n15",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "款式与材料方案\n主责｜产品负责人／设计师\n交付｜款式、材料组成、设计版本",
+      "type": "Y"
+    },
+    {
+      "color": [
+        61,
+        48,
+        32,
+        1
+      ],
+      "position": {
+        "x": 790,
+        "y": 665
+      },
+      "ref": "n16",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "标准用料与成本估算\n主责｜产品＋工厂协作\n交付｜计划用量、预计加工费",
+      "type": "Y"
+    },
+    {
+      "color": [
+        61,
+        48,
+        32,
+        1
+      ],
+      "position": {
+        "x": 1310,
+        "y": 555
+      },
+      "ref": "n17",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "设计版本确认\n主责｜设计师＋顾问记录客户意见\n交付｜定制生产依据；现货引用版本",
+      "type": "Y"
+    },
+    {
+      "color": [
+        61,
+        48,
+        32,
+        1
+      ],
+      "position": {
+        "x": 2350,
+        "y": 555
+      },
+      "ref": "n18",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "设计变更与返工方案\n主责｜设计师＋工厂\n交付｜变更原因、费用与重新确认",
+      "type": "Y"
+    },
+    {
+      "color": [
+        61,
+        48,
+        32,
+        1
+      ],
+      "position": {
+        "x": 2870,
+        "y": 555
+      },
+      "ref": "n19",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "产品迭代\n主责｜产品负责人\n交付｜成本、销售与客诉改善方案",
+      "type": "Y"
+    },
+    {
+      "color": [
+        35,
+        57,
+        84,
+        1
+      ],
+      "position": {
+        "x": 270,
+        "y": 920
+      },
+      "ref": "n20",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "获客与顾问分配\n主责｜品牌运营／店长\n交付｜客户来源、预约、负责顾问",
+      "type": "Y"
+    },
+    {
+      "color": [
+        35,
+        57,
+        84,
+        1
+      ],
+      "position": {
+        "x": 270,
+        "y": 1120
+      },
+      "ref": "n21",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "需求与意向登记\n主责｜顾问\n交付｜预算、用途、意向与交期",
+      "type": "Y"
+    },
+    {
+      "color": [
+        35,
+        57,
+        84,
+        1
+      ],
+      "position": {
+        "x": 790,
+        "y": 1015
+      },
+      "ref": "n22",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "报价快照\n主责｜顾问\n交付｜商品版本、价源、销售工费",
+      "type": "Y"
+    },
+    {
+      "color": [
+        35,
+        57,
+        84,
+        1
+      ],
+      "position": {
+        "x": 1310,
+        "y": 920
+      },
+      "ref": "n23",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "客户确认报价\n主责｜顾问\n交付｜确认内容、交期与变更条件",
+      "type": "Y"
+    },
+    {
+      "color": [
+        35,
+        57,
+        84,
+        1
+      ],
+      "position": {
+        "x": 1310,
+        "y": 1120
+      },
+      "ref": "n24",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "立单与履约分流\n主责｜顾问／店长\n交付｜订单编号：现货或定制",
+      "type": "Y"
+    },
+    {
+      "color": [
+        35,
+        57,
+        84,
+        1
+      ],
+      "position": {
+        "x": 2350,
+        "y": 1015
+      },
+      "ref": "n25",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "交付与客户验收\n主责｜顾问＋仓库\n交付｜商品、交付时间、签收结果",
+      "type": "Y"
+    },
+    {
+      "color": [
+        35,
+        57,
+        84,
+        1
+      ],
+      "position": {
+        "x": 2870,
+        "y": 1015
+      },
+      "ref": "n26",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "售后、取消与变更受理\n主责｜顾问\n交付｜原因、成本保留、处理结果",
+      "type": "Y"
+    },
+    {
+      "color": [
+        30,
+        60,
+        54,
+        1
+      ],
+      "position": {
+        "x": 1310,
+        "y": 1375
+      },
+      "ref": "n27",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "库存与供料核对\n主责｜仓库＋采购\n交付｜可用成品、材料及缺口",
+      "type": "Y"
+    },
+    {
+      "color": [
+        30,
+        60,
+        54,
+        1
+      ],
+      "position": {
+        "x": 1830,
+        "y": 1585
+      },
+      "ref": "n28",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "缺料时采购批次入库\n主责｜采购＋仓库\n交付｜批次、规格、价量与位置",
+      "type": "Y"
+    },
+    {
+      "color": [
+        30,
+        60,
+        54,
+        1
+      ],
+      "position": {
+        "x": 1830,
+        "y": 1375
+      },
+      "ref": "n29",
+      "size": {
+        "height": 151.25,
+        "width": 450
+      },
+      "text": "现货｜锁定与备货\n主责｜仓库\n交付｜成品与合格依据\n出库检查规则待确认",
+      "type": "Y"
+    },
+    {
+      "color": [
+        30,
+        60,
+        54,
+        1
+      ],
+      "position": {
+        "x": 1830,
+        "y": 1795
+      },
+      "ref": "n30",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "定制｜领料与加工\n主责｜工厂\n交付｜任务号、来源批次、实际工费",
+      "type": "Y"
+    },
+    {
+      "color": [
+        30,
+        60,
+        54,
+        1
+      ],
+      "position": {
+        "x": 1830,
+        "y": 2005
+      },
+      "ref": "n31",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "余料、回收料与损耗\n主责｜工厂记录＋仓库核量\n交付｜退料、在制、差异与确认损耗",
+      "type": "Y"
+    },
+    {
+      "color": [
+        30,
+        60,
+        54,
+        1
+      ],
+      "position": {
+        "x": 2350,
+        "y": 1585
+      },
+      "ref": "n32",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "质检｜合格或退回返工\n主责｜质检\n交付｜不合格项、原因及处理要求",
+      "type": "Y"
+    },
+    {
+      "color": [
+        30,
+        60,
+        54,
+        1
+      ],
+      "position": {
+        "x": 2350,
+        "y": 1795
+      },
+      "ref": "n33",
+      "size": {
+        "height": 151.25,
+        "width": 450
+      },
+      "text": "返工完成 → 再次质检\n主责｜工厂\n交付｜新增用料工费；保留原成本\n复检合格后进入成品交付",
+      "type": "Y"
+    },
+    {
+      "color": [
+        30,
+        60,
+        54,
+        1
+      ],
+      "position": {
+        "x": 2350,
+        "y": 1375
+      },
+      "ref": "n34",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "成品入库与交付出库\n主责｜仓库\n交付｜成品编号、材料关联、出库记录",
+      "type": "Y"
+    },
+    {
+      "color": [
+        30,
+        60,
+        54,
+        1
+      ],
+      "position": {
+        "x": 2870,
+        "y": 1585
+      },
+      "ref": "n35",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "售后回件与处置\n主责｜仓库＋质检＋工厂\n交付｜回件、检验、维修或入库结果",
+      "type": "Y"
+    },
+    {
+      "color": [
+        53,
+        45,
+        73,
+        1
+      ],
+      "position": {
+        "x": 790,
+        "y": 2340
+      },
+      "ref": "n36",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "成本与报价复核\n主责｜财务＋产品\n交付｜依据与异常；审批条件待定",
+      "type": "Y"
+    },
+    {
+      "color": [
+        53,
+        45,
+        73,
+        1
+      ],
+      "position": {
+        "x": 1310,
+        "y": 2340
+      },
+      "ref": "n37",
+      "size": {
+        "height": 151.25,
+        "width": 450
+      },
+      "text": "应收与付款安排\n主责｜财务＋顾问\n依据｜订单编号、确认报价\n交付｜应收；定金／尾款待核实",
+      "type": "Y"
+    },
+    {
+      "color": [
+        53,
+        45,
+        73,
+        1
+      ],
+      "position": {
+        "x": 1830,
+        "y": 2340
+      },
+      "ref": "n38",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "收款与退款核对\n主责｜财务\n交付｜实收、退款、凭证与差异",
+      "type": "Y"
+    },
+    {
+      "color": [
+        53,
+        45,
+        73,
+        1
+      ],
+      "position": {
+        "x": 2350,
+        "y": 2340
+      },
+      "ref": "n39",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "实际成本复核\n主责｜财务＋工厂＋仓库\n交付｜材料、加工、损耗、返工费用",
+      "type": "Y"
+    },
+    {
+      "color": [
+        53,
+        45,
+        73,
+        1
+      ],
+      "position": {
+        "x": 2870,
+        "y": 2340
+      },
+      "ref": "n40",
+      "size": {
+        "height": 118.25,
+        "width": 450
+      },
+      "text": "毛利与资金分别汇总\n主责｜财务\n交付｜约定成本口径、资金与未结清",
+      "type": "Y"
+    },
+    {
+      "color": [
+        35,
+        57,
+        84,
+        1
+      ],
+      "position": {
+        "x": 0,
+        "y": 2675
+      },
+      "ref": "n41",
+      "size": {
+        "height": 52.25,
+        "width": 3440
+      },
+      "text": "CRM 共享记录｜客户 → 报价版本 → 订单 → 生产任务 → 实际用料／批次 → 成品 → 交付 → 收退款",
+      "type": "Y"
+    },
+    {
+      "color": [
+        36,
+        56,
+        46,
+        1
+      ],
+      "position": {
+        "x": 0,
+        "y": 2775
+      },
+      "ref": "n42",
+      "size": {
+        "height": 52.25,
+        "width": 3440
+      },
+      "text": "经营反馈｜金价参考变化、商品成本、销售毛利、实际收款分别显示；异常回到负责岗位调查与复核。",
+      "type": "Y"
+    },
+    {
+      "color": [
+        24,
+        38,
+        57,
+        1
+      ],
+      "position": {
+        "x": 0,
+        "y": 2875
+      },
+      "ref": "n43",
+      "size": {
+        "height": 85.25,
+        "width": 3440
+      },
+      "text": "实线：业务交接　虚线：财务核对｜现货备货直接入交付；定制按确认版本生产。\n付款、生产、交付各自记录状态；取消、返工与退货保留原记录及已发生费用。",
+      "type": "Y"
+    },
+    {
+      "color": [
+        53,
+        45,
+        73,
+        1
+      ],
+      "position": {
+        "x": 1310,
+        "y": 2190
+      },
+      "ref": "n44",
+      "size": {
+        "height": 118.25,
+        "width": 1490
+      },
+      "text": "成本依据汇集｜同一订单／生产任务／原料批次\n来源｜采购、实际用料、加工、确认损耗、返工\n核对｜来源凭据、数量与费用口径；缺项待确认",
+      "type": "Y"
+    },
+    {
+      "position": {
+        "x": 2805,
+        "y": 1894
+      },
+      "ref": "n45",
+      "size": {
+        "height": 30,
+        "width": 30
+      },
+      "type": "aD"
+    },
+    {
+      "position": {
+        "x": 2805,
+        "y": 1599.75
+      },
+      "ref": "n46",
+      "size": {
+        "height": 30,
+        "width": 30
+      },
+      "type": "aD"
+    },
+    {
+      "position": {
+        "x": 2840,
+        "y": 599.5
+      },
+      "ref": "n47",
+      "size": {
+        "height": 30,
+        "width": 30
+      },
+      "type": "aD"
+    },
+    {
+      "position": {
+        "x": 2840,
+        "y": 1856
+      },
+      "ref": "n48",
+      "size": {
+        "height": 30,
+        "width": 30
+      },
+      "type": "aD"
+    },
+    {
+      "position": {
+        "x": 1270,
+        "y": 1164.5
+      },
+      "ref": "n49",
+      "size": {
+        "height": 30,
+        "width": 30
+      },
+      "type": "aD"
+    },
+    {
+      "position": {
+        "x": 1270,
+        "y": 2401
+      },
+      "ref": "n50",
+      "size": {
+        "height": 30,
+        "width": 30
+      },
+      "type": "aD"
+    },
+    {
+      "position": {
+        "x": 1765,
+        "y": 1629.5
+      },
+      "ref": "n51",
+      "size": {
+        "height": 30,
+        "width": 30
+      },
+      "type": "aD"
+    },
+    {
+      "position": {
+        "x": 1785,
+        "y": 1839.5
+      },
+      "ref": "n52",
+      "size": {
+        "height": 30,
+        "width": 30
+      },
+      "type": "aD"
+    },
+    {
+      "position": {
+        "x": 2040,
+        "y": 2525
+      },
+      "ref": "n53",
+      "size": {
+        "height": 30,
+        "width": 30
+      },
+      "type": "aD"
+    },
+    {
+      "position": {
+        "x": 3080,
+        "y": 2525
+      },
+      "ref": "n54",
+      "size": {
+        "height": 30,
+        "width": 30
+      },
+      "type": "aD"
+    },
+    {
+      "color": [
+        121,
+        168,
+        245,
+        1
+      ],
+      "position": {
+        "x": 495,
+        "y": 1038.25
+      },
+      "ref": "e1",
+      "size": {
+        "height": 81.75,
+        "width": 0
+      },
+      "sourceRef": "n20",
+      "targetRef": "n21",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        121,
+        168,
+        245,
+        1
+      ],
+      "position": {
+        "x": 720,
+        "y": 1074.125
+      },
+      "ref": "e2",
+      "size": {
+        "height": 105,
+        "width": 70
+      },
+      "sourceRef": "n21",
+      "targetRef": "n22",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        121,
+        168,
+        245,
+        1
+      ],
+      "position": {
+        "x": 1240,
+        "y": 979.125
+      },
+      "ref": "e3",
+      "size": {
+        "height": 95,
+        "width": 70
+      },
+      "sourceRef": "n22",
+      "targetRef": "n23",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        121,
+        168,
+        245,
+        1
+      ],
+      "position": {
+        "x": 1535,
+        "y": 1038.25
+      },
+      "ref": "e4",
+      "size": {
+        "height": 81.75,
+        "width": 0
+      },
+      "sourceRef": "n23",
+      "targetRef": "n24",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        121,
+        168,
+        245,
+        1
+      ],
+      "position": {
+        "x": 2800,
+        "y": 1074.125
+      },
+      "ref": "e5",
+      "size": {
+        "height": 0,
+        "width": 70
+      },
+      "sourceRef": "n25",
+      "targetRef": "n26",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        231,
+        184,
+        102,
+        1
+      ],
+      "position": {
+        "x": 1015,
+        "y": 578.25
+      },
+      "ref": "e6",
+      "size": {
+        "height": 86.75,
+        "width": 0
+      },
+      "sourceRef": "n15",
+      "targetRef": "n16",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        231,
+        184,
+        102,
+        1
+      ],
+      "position": {
+        "x": 1015,
+        "y": 783.25
+      },
+      "ref": "e7",
+      "size": {
+        "height": 231.75,
+        "width": 0
+      },
+      "sourceRef": "n16",
+      "targetRef": "n22",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        121,
+        168,
+        245,
+        1
+      ],
+      "position": {
+        "x": 1535,
+        "y": 673.25
+      },
+      "ref": "e8",
+      "size": {
+        "height": 246.75,
+        "width": 0
+      },
+      "sourceRef": "n23",
+      "targetRef": "n17",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        121,
+        168,
+        245,
+        1
+      ],
+      "position": {
+        "x": 1535,
+        "y": 1238.25
+      },
+      "ref": "e9",
+      "size": {
+        "height": 136.75,
+        "width": 0
+      },
+      "sourceRef": "n24",
+      "targetRef": "n27",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 1760,
+        "y": 1434.125
+      },
+      "ref": "e10",
+      "size": {
+        "height": 210,
+        "width": 70
+      },
+      "sourceRef": "n27",
+      "targetRef": "n28",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 1760,
+        "y": 1434.125
+      },
+      "ref": "e11",
+      "size": {
+        "height": 16.5,
+        "width": 70
+      },
+      "sourceRef": "n27",
+      "targetRef": "n29",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 2055,
+        "y": 1703.25
+      },
+      "ref": "e12",
+      "size": {
+        "height": 91.75,
+        "width": 0
+      },
+      "sourceRef": "n28",
+      "targetRef": "n30",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        231,
+        184,
+        102,
+        1
+      ],
+      "position": {
+        "x": 1760,
+        "y": 614.125
+      },
+      "ref": "e13",
+      "size": {
+        "height": 1240,
+        "width": 70
+      },
+      "sourceRef": "n17",
+      "targetRef": "n30",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 2055,
+        "y": 1913.25
+      },
+      "ref": "e14",
+      "size": {
+        "height": 91.75,
+        "width": 0
+      },
+      "sourceRef": "n30",
+      "targetRef": "n31",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 2280,
+        "y": 1644.125
+      },
+      "ref": "e15",
+      "size": {
+        "height": 210,
+        "width": 70
+      },
+      "sourceRef": "n30",
+      "targetRef": "n32",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 2280,
+        "y": 1644.125
+      },
+      "ref": "e16",
+      "size": {
+        "height": 420,
+        "width": 70
+      },
+      "sourceRef": "n31",
+      "targetRef": "n32",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 2280,
+        "y": 1434.125
+      },
+      "ref": "e17",
+      "size": {
+        "height": 16.5,
+        "width": 70
+      },
+      "sourceRef": "n29",
+      "targetRef": "n34",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 2575,
+        "y": 1493.25
+      },
+      "ref": "e18",
+      "size": {
+        "height": 91.75,
+        "width": 0
+      },
+      "sourceRef": "n32",
+      "targetRef": "n34",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 2575,
+        "y": 1703.25
+      },
+      "ref": "e19",
+      "size": {
+        "height": 91.75,
+        "width": 0
+      },
+      "sourceRef": "n32",
+      "targetRef": "n33",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 2800,
+        "y": 1870.625
+      },
+      "ref": "e20",
+      "size": {
+        "height": 38.375,
+        "width": 20
+      },
+      "sourceRef": "n33",
+      "targetRef": "n45",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 2820,
+        "y": 1614.75
+      },
+      "ref": "e21",
+      "size": {
+        "height": 294.25,
+        "width": 0
+      },
+      "sourceRef": "n45",
+      "targetRef": "n46",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 2800,
+        "y": 1614.75
+      },
+      "ref": "e22",
+      "size": {
+        "height": 29.375,
+        "width": 20
+      },
+      "sourceRef": "n46",
+      "targetRef": "n32",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        107,
+        199,
+        178,
+        1
+      ],
+      "position": {
+        "x": 2575,
+        "y": 1133.25
+      },
+      "ref": "e23",
+      "size": {
+        "height": 241.75,
+        "width": 0
+      },
+      "sourceRef": "n34",
+      "targetRef": "n25",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        121,
+        168,
+        245,
+        1
+      ],
+      "position": {
+        "x": 3095,
+        "y": 1133.25
+      },
+      "ref": "e24",
+      "size": {
+        "height": 451.75,
+        "width": 0
+      },
+      "sourceRef": "n26",
+      "targetRef": "n35",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 1760,
+        "y": 2399.125
+      },
+      "ref": "e25",
+      "size": {
+        "height": 16.5,
+        "width": 70
+      },
+      "sourceRef": "n37",
+      "targetRef": "n38",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 2800,
+        "y": 2399.125
+      },
+      "ref": "e26",
+      "size": {
+        "height": 0,
+        "width": 70
+      },
+      "sourceRef": "n39",
+      "targetRef": "n40",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        231,
+        184,
+        102,
+        1
+      ],
+      "position": {
+        "x": 2800,
+        "y": 614.125
+      },
+      "ref": "e27",
+      "size": {
+        "height": 0.375,
+        "width": 55
+      },
+      "sourceRef": "n18",
+      "targetRef": "n47",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        231,
+        184,
+        102,
+        1
+      ],
+      "position": {
+        "x": 2855,
+        "y": 614.5
+      },
+      "ref": "e28",
+      "size": {
+        "height": 1256.5,
+        "width": 0
+      },
+      "sourceRef": "n47",
+      "targetRef": "n48",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        231,
+        184,
+        102,
+        1
+      ],
+      "position": {
+        "x": 2800,
+        "y": 1870.625
+      },
+      "ref": "e29",
+      "size": {
+        "height": 0.375,
+        "width": 55
+      },
+      "sourceRef": "n48",
+      "targetRef": "n33",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 1015,
+        "y": 1133.25
+      },
+      "ref": "e30",
+      "size": {
+        "height": 1206.75,
+        "width": 0
+      },
+      "sourceRef": "n22",
+      "targetRef": "n36",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 1285,
+        "y": 1179.125
+      },
+      "ref": "e31",
+      "size": {
+        "height": 0.375,
+        "width": 25
+      },
+      "sourceRef": "n24",
+      "targetRef": "n49",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 1285,
+        "y": 1179.5
+      },
+      "ref": "e32",
+      "size": {
+        "height": 1236.5,
+        "width": 0
+      },
+      "sourceRef": "n49",
+      "targetRef": "n50",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 1285,
+        "y": 2415.625
+      },
+      "ref": "e33",
+      "size": {
+        "height": 0.375,
+        "width": 25
+      },
+      "sourceRef": "n50",
+      "targetRef": "n37",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 1780,
+        "y": 1644.125
+      },
+      "ref": "e34",
+      "size": {
+        "height": 0.375,
+        "width": 50
+      },
+      "sourceRef": "n28",
+      "targetRef": "n51",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 1780,
+        "y": 1644.5
+      },
+      "ref": "e35",
+      "size": {
+        "height": 545.5,
+        "width": 275
+      },
+      "sourceRef": "n51",
+      "targetRef": "n44",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 1800,
+        "y": 1854.125
+      },
+      "ref": "e36",
+      "size": {
+        "height": 0.375,
+        "width": 30
+      },
+      "sourceRef": "n30",
+      "targetRef": "n52",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 1800,
+        "y": 1854.5
+      },
+      "ref": "e37",
+      "size": {
+        "height": 335.5,
+        "width": 255
+      },
+      "sourceRef": "n52",
+      "targetRef": "n44",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 2055,
+        "y": 2123.25
+      },
+      "ref": "e38",
+      "size": {
+        "height": 66.75,
+        "width": 0
+      },
+      "sourceRef": "n31",
+      "targetRef": "n44",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 2055,
+        "y": 1946.25
+      },
+      "ref": "e39",
+      "size": {
+        "height": 243.75,
+        "width": 520
+      },
+      "sourceRef": "n33",
+      "targetRef": "n44",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 2055,
+        "y": 2308.25
+      },
+      "ref": "e40",
+      "size": {
+        "height": 31.75,
+        "width": 520
+      },
+      "sourceRef": "n44",
+      "targetRef": "n39",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 2055,
+        "y": 2458.25
+      },
+      "ref": "e41",
+      "size": {
+        "height": 81.75,
+        "width": 0
+      },
+      "sourceRef": "n38",
+      "targetRef": "n53",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 2055,
+        "y": 2540
+      },
+      "ref": "e42",
+      "size": {
+        "height": 0,
+        "width": 1040
+      },
+      "sourceRef": "n53",
+      "targetRef": "n54",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "color": [
+        180,
+        155,
+        231,
+        1
+      ],
+      "position": {
+        "x": 3095,
+        "y": 2458.25
+      },
+      "ref": "e43",
+      "size": {
+        "height": 81.75,
+        "width": 0
+      },
+      "sourceRef": "n54",
+      "targetRef": "n40",
+      "text": "",
+      "type": "kj"
+    },
+    {
+      "imageState": "success",
+      "isBackground": true,
+      "position": {
+        "x": -65,
+        "y": -65
+      },
+      "ref": "n55",
+      "size": {
+        "height": 3091,
+        "width": 3570
+      },
+      "type": "sD"
+    }
+  ]
+}

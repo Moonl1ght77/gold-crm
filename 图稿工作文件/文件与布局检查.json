@@ -1,0 +1,20 @@
+[
+  {
+    "file": "01-公司岗位协作图-v0.2.prg",
+    "text_nodes": 43,
+    "edges": 34,
+    "zip_integrity": "通过",
+    "unique_ids": "通过",
+    "references": "通过",
+    "node_overlap": "无"
+  },
+  {
+    "file": "02-公司业务与MVP思维导图-v0.2.prg",
+    "text_nodes": 97,
+    "edges": 93,
+    "zip_integrity": "通过",
+    "unique_ids": "通过",
+    "references": "通过",
+    "node_overlap": "无"
+  }
+]
