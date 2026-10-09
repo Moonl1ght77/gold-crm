@@ -4,3 +4,7 @@ __pycache__/
 .env.*
 *.pem
 *.key
+demo/node_modules/
+demo/dist/
+demo/.vite/
+demo/evidence/
