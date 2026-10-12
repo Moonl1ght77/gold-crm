@@ -1,8 +1,15 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import { App } from './App.tsx';
+import { loadPrefs } from './shell/prefs.ts';
+import './styles/tokens.css';
+import './styles/shell.css';
+
+// 首帧前先套上保存的主题，避免浅色用户看到一闪深色
+document.documentElement.dataset.theme = loadPrefs().theme;
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <p>黄金CRM 全公司点击原型：脚手架就绪</p>
+    <App />
   </StrictMode>,
 );
