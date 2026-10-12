@@ -1,3 +1,4 @@
+import { checkPrefs } from './checks/prefs.ts';
 import { checkRoles } from './checks/roles.ts';
 import { checkRoutes } from './checks/routes.ts';
 import type { Check } from './checks/types.ts';
@@ -5,6 +6,7 @@ import type { Check } from './checks/types.ts';
 const sections: Array<[string, (check: Check) => void]> = [
   ['路由', checkRoutes],
   ['岗位', checkRoles],
+  ['偏好', checkPrefs],
 ];
 
 const failures: string[] = [];
