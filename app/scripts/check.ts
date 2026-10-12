@@ -1,7 +1,11 @@
+import { checkRoles } from './checks/roles.ts';
 import { checkRoutes } from './checks/routes.ts';
 import type { Check } from './checks/types.ts';
 
-const sections: Array<[string, (check: Check) => void]> = [['路由', checkRoutes]];
+const sections: Array<[string, (check: Check) => void]> = [
+  ['路由', checkRoutes],
+  ['岗位', checkRoles],
+];
 
 const failures: string[] = [];
 for (const [, run] of sections) {
