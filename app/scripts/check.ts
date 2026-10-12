@@ -1,3 +1,5 @@
+import { checkBalance } from './checks/balance.ts';
+import { checkCosts } from './checks/costs.ts';
 import { checkData } from './checks/data.ts';
 import { checkLinks } from './checks/links.ts';
 import { checkPrefs } from './checks/prefs.ts';
@@ -11,6 +13,8 @@ const sections: Array<[string, (check: Check) => void]> = [
   ['偏好', checkPrefs],
   ['链接', checkLinks],
   ['数据', checkData],
+  ['平衡', checkBalance],
+  ['成本', checkCosts],
 ];
 
 const failures: string[] = [];
