@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import type { ReactNode } from 'react';
+import { drawerParent } from '../pages/registry.ts';
 import { activeNavRoute, landingHref, navHref, navRoutesOf } from '../routes.ts';
 import type { RouteMatch } from '../routes.ts';
 import { visibleModules } from '../roles.ts';
@@ -9,13 +10,15 @@ import { useShell } from './ShellContext.ts';
 export function DesktopFrame({ match, children }: { match: RouteMatch; children: ReactNode }) {
   const { role } = useShell();
   const mainRef = useRef<HTMLElement>(null);
-  const location = window.location.hash;
   const { route } = match;
   const active = activeNavRoute(match);
+  // 详情开在抽屉里时主区还是那张列表：开关抽屉、在抽屉里换记录都不把列表滚回顶部
+  const parent = drawerParent(match, 'desktop');
+  const scrollKey = parent ? navHref(parent) : window.location.hash;
 
   useEffect(() => {
     mainRef.current?.scrollTo(0, 0);
-  }, [location]);
+  }, [scrollKey]);
 
   if (route.module === 'wecom') {
     return (
@@ -63,7 +66,7 @@ export function DesktopFrame({ match, children }: { match: RouteMatch; children:
       </aside>
       <main className="desktop-main" ref={mainRef}>
         <header className="desktop-head">
-          <h1>{route.title}</h1>
+          <h1>{(parent ?? route).title}</h1>
         </header>
         {children}
       </main>
