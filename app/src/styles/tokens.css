@@ -18,6 +18,13 @@
   --info: #6cb6ff;
   --frame: #0b1119;
   --shadow: 0 12px 32px rgb(0 0 0 / 0.45);
+  /* 图表类别色：按固定顺序给类别，不按大小排；已用 dataviz 校验器对 --surface 校验（色盲区分、亮度、对比） */
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
+  --series-5: #d55181;
+  --series-6: #008300;
 }
 
 :root[data-theme='light'] {
@@ -39,4 +46,11 @@
   --info: #0969da;
   --frame: #1c2430;
   --shadow: 0 12px 32px rgb(28 36 48 / 0.18);
+  /* 浅色下 3、4、5 号对白底不足 3:1，用到时必须旁边有文字数值或图例 */
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --series-4: #eda100;
+  --series-5: #e87ba4;
+  --series-6: #008300;
 }

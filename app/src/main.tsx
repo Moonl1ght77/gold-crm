@@ -4,6 +4,7 @@ import { App } from './App.tsx';
 import { loadPrefs } from './shell/prefs.ts';
 import './styles/tokens.css';
 import './styles/shell.css';
+import './styles/ui.css';
 
 // 首帧前先套上保存的主题，避免浅色用户看到一闪深色
 document.documentElement.dataset.theme = loadPrefs().theme;
