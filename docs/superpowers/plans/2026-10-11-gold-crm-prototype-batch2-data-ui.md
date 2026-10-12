@@ -2,9 +2,9 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** 定下原料、批次、生产、成品、客户、业务单、审批的数据模型和虚拟数据，写好批次平衡、单件成本、业务单毛利、系列耗用的推算函数和数据检查；做出通用组件和桌面详情抽屉，用"原料批次""批次详情"两页验证。
+**Goal:** 定下原料、批次、生产、成品、客户、业务单、审批的数据模型和虚拟数据，写好批次平衡、单件成本、业务单毛利、系列耗用的推算函数和数据检查；做出通用组件（含原料徽章和占比色条）和桌面详情抽屉，用"原料批次""批次详情"两页验证。
 
-**Architecture:** 数据层三个文件：`model.ts`（类型和计量规则）、`seed.ts`（只写基础事实）、`calc.ts`（纯函数，数据 `db` 从参数传入）。检查脚本新增数据、平衡、成本三组；平衡组另注入一种原料（铂金）重跑全部结构检查，再用"少记 1 g"的反例证明平衡检查能抓错。界面层 `src/ui/` 放通用组件，列表按当前视图出表格或卡片；桌面视图下详情页叠在所属列表页上、用右侧抽屉显示，由 `drawerParent()` 判断，列表页还没做的详情照常整页显示。
+**Architecture:** 数据层三个文件：`model.ts`（类型和计量规则）、`seed.ts`（只写基础事实）、`calc.ts`（纯函数，数据 `db` 从参数传入）。检查脚本新增数据、平衡、成本三组；平衡组另注入一种原料（铂金）重跑全部结构检查，再用"少记 1 g"的反例证明平衡检查能抓错。界面层 `src/ui/` 放通用组件，列表按当前视图出表格或卡片；原料用"色标＋计量图标"的徽章辨认，批次去向用占比色条一眼看出；桌面视图下详情页叠在所属列表页上、用右侧抽屉显示，由 `drawerParent()` 判断，列表页还没做的详情照常整页显示。
 
 **Tech Stack:** 同第 1 批：React 19.3、TypeScript 5.9、Vite 8.3；Node 22.6 以上跑检查脚本。不加依赖。
 
@@ -18,13 +18,14 @@
 - 检查脚本就是测试：有逻辑的部分先写检查、看它失败，再写实现。界面组件不写检查，靠构建和浏览器验。
 - 金额存整数分，重量存整数毫克，宝石另记粒数（1 ct＝200 mg）；种子数据里出现非整数，检查直接报错。
 - 种子数据只写基础事实；合计、平衡、成本、毛利一律调 `calc.ts`，页面里不手算。
-- 本计划的代码已在临时副本试跑：`npm run check`（另用 7 种改坏的数据确认每种都能报出）、`npm run build`、浏览器手机／桌面视图和深／浅主题都通过。
+- 本计划的代码已在临时副本试跑：`npm run check`（另用 7 种改坏的数据确认每种都能报出）、`npm run build`、浏览器手机／桌面视图和深／浅主题都通过（含原料徽章和去向色条）。
 
 ## 与路线图的出入（已定，实施时照做）
 
 - **多做**：供应商最小档案（批次要引用采购来源）；详情分区组件 `Section`／`Fields`（设计稿第 9 节列了）；桌面视图的"页面说明"由浮在右侧改成占右侧一栏，不然会盖住详情抽屉。
 - **推后**：款式工费和目标成本（第 3 批做款式详情时补）；审批链和阈值判断（第 4、6 批）；员工和经办人（第 5 批）；客户补到约 20 个（第 4 批）。审批里能由原记录推出的金额（如损耗成本）不写死。
 - 阶段条暂时没有业务单页可用，先在批次详情上显示"采购入库 → 领用生产 → 结清"。
+- **原料视觉（2026-10-11 Joe 定）**：原料不只靠编号辨认。数据里给每种原料一个本色 `swatch`，配按计量方式的图标（砝码／宝石／链扣）做成徽章，新原料只填颜色。批次详情加去向色条。不放照片：照片留给款式、成品和证书主石，等商家给图。色条用 `tokens.css` 的类别色 `--series-1～6`（已用 dataviz 校验器对两套主题的 `--surface` 校验通过；浅色下 3、4、5 号对白底不足 3:1，所以色条旁始终有文字平衡式），不用原料本色，因为足金、18K、24K 颜色太近，画进图表分不清。
 
 ## 虚拟数据要点
 
@@ -44,10 +45,10 @@
 
 | 文件 | 职责 |
 |---|---|
-| `app/src/data/model.ts` | 类型；计量方式与维度 `DIMS`；批次去向 `OUTLETS` |
+| `app/src/data/model.ts` | 类型（原料含本色 `swatch`）；计量方式与维度 `DIMS`；批次去向 `OUTLETS` |
 | `app/src/data/seed.ts` | 虚拟数据和汇总对象 `db` |
 | `app/src/data/calc.ts` | `get`、`sumBy`、`amountOf`、`lineCost`、`batchBalance`、`batchStatus`、`goodCost`、`orderMargin`、`seriesUsage` |
-| `app/scripts/checks/data.ts` | 编号格式与唯一、整数、引用、计量写法、证书石、任务与成品、系列构成 |
+| `app/scripts/checks/data.ts` | 编号格式与唯一、整数、色标格式、引用、计量写法、证书石、任务与成品、系列构成 |
 | `app/scripts/checks/balance.ts` | 各批次平衡、PC-001／PC-004／PC-002 定值、注入铂金、反例 |
 | `app/scripts/checks/costs.ts` | 三种计量的金额、单件成本、毛利、系列耗用、系列与批次交叉核对 |
 | `app/scripts/check.ts` | 接上三组；单组抛异常时记为失败，不盖住其他组的结果 |
@@ -55,7 +56,10 @@
 | `app/src/ui/StatusTag.tsx`、`Stat.tsx`、`StageBar.tsx`、`Timeline.tsx`、`Section.tsx` | 状态标签、指标卡、阶段条、时间线、详情分区与字段表 |
 | `app/src/ui/DataList.tsx` | 列配置＋数据：桌面出表格，手机转卡片 |
 | `app/src/ui/Drawer.tsx` | 桌面详情抽屉 |
+| `app/src/ui/MaterialBadge.tsx` | 原料徽章：本色色标＋计量方式图标＋名称和成色 |
+| `app/src/ui/ShareBar.tsx` | 占比色条：按类别色固定上色，带图例 |
 | `app/src/styles/ui.css` | 通用组件样式；`app/src/main.tsx` 引入 |
+| `app/src/styles/tokens.css` | 两套主题各加 `--series-1～6` 图表类别色 |
 | `app/src/pages/registry.ts` | 登记两页；`drawerParent()` |
 | `app/src/shell/Screen.tsx`、`DesktopFrame.tsx`、`app/src/styles/shell.css` | 桌面详情进抽屉；标题和滚动跟着列表；说明改占一栏 |
 | `app/src/pages/inventory/BatchList.tsx` | 原料批次（含 `BatchTag`） |
@@ -98,6 +102,8 @@ export interface Material {
   /** 类别也是数据：贵金属、钻石、彩钻、工艺材料、配件……新类别不用改代码 */
   category: string;
   measure: Measure;
+  /** 原料本色（#rrggbb），只用来在徽章上认原料；图表用 tokens.css 的类别色，不用它 */
+  swatch: string;
   /** 成色（‰）；宝石、配件和成色待核的不写 */
   fineness?: number;
   /** 参考单价（分）：按重量每克、按粒每克拉、按件每件 */
@@ -331,6 +337,7 @@ export function checkDb(check: Check, d: Db, tag: string): void {
     );
   const seriesMaterials = (styleId: string) => d.series.find(s => s.id === d.styles.find(x => x.id === styleId)?.series)?.materials ?? [];
 
+  for (const m of d.materials) check(/^#[0-9a-f]{6}$/.test(m.swatch), `${tag}${m.id} 的色标应写成 #rrggbb（小写）`);
   for (const b of d.batches) {
     has(d.materials, b.material, b.id);
     has(d.suppliers, b.supplier, b.id);
@@ -444,16 +451,16 @@ import type { Approval, Batch, Customer, Db, Good, Material, Movement, Order, Se
 
 /** 原料目录：目前只知道这些，数值都是虚拟值，完整清单待商家补全 */
 export const materials: readonly Material[] = [
-  { id: 'YL-001', name: '足金', category: '贵金属', measure: 'weight', fineness: 990, refPrice: 80000, priceSource: '虚拟参考价 2026-10-12', lossRate: 5 },
-  { id: 'YL-002', name: '18K 金', category: '贵金属', measure: 'weight', fineness: 750, refPrice: 60000, priceSource: '虚拟参考价 2026-10-12', lossRate: 8 },
-  { id: 'YL-003', name: '足银', category: '贵金属', measure: 'weight', fineness: 990, refPrice: 1000, priceSource: '虚拟参考价 2026-10-12', lossRate: 10 },
-  { id: 'YL-004', name: '925 银', category: '贵金属', measure: 'weight', fineness: 925, refPrice: 900, priceSource: '虚拟参考价 2026-10-12', lossRate: 10 },
-  { id: 'YL-005', name: '白钻配石', category: '钻石', measure: 'stone', refPrice: 500000, priceSource: '按批次采购价，无公开行情', lossRate: 20 },
-  { id: 'YL-006', name: '黄彩钻主石', category: '彩钻', measure: 'stone', refPrice: 3500000, priceSource: '逐粒采购价，无公开行情', lossRate: 0 },
-  { id: 'YL-007', name: '珐琅釉料', category: '工艺材料', measure: 'weight', refPrice: 2000, priceSource: '虚拟参考价 2026-10-12', lossRate: 100 },
-  { id: 'YL-008', name: '链扣配件', category: '配件', measure: 'piece', refPrice: 1500, priceSource: '虚拟参考价 2026-10-12', lossRate: 0 },
-  { id: 'YL-009', name: '16K 金', category: '贵金属', measure: 'weight', refPrice: 50000, priceSource: '虚拟参考价，成色与标注待核', lossRate: 8, pending: true },
-  { id: 'YL-010', name: '24K 金', category: '贵金属', measure: 'weight', refPrice: 82000, priceSource: '虚拟参考价，成色与标注待核', lossRate: 5, pending: true },
+  { id: 'YL-001', name: '足金', category: '贵金属', measure: 'weight', swatch: '#d9b44a', fineness: 990, refPrice: 80000, priceSource: '虚拟参考价 2026-10-12', lossRate: 5 },
+  { id: 'YL-002', name: '18K 金', category: '贵金属', measure: 'weight', swatch: '#cfae7a', fineness: 750, refPrice: 60000, priceSource: '虚拟参考价 2026-10-12', lossRate: 8 },
+  { id: 'YL-003', name: '足银', category: '贵金属', measure: 'weight', swatch: '#c9cdd2', fineness: 990, refPrice: 1000, priceSource: '虚拟参考价 2026-10-12', lossRate: 10 },
+  { id: 'YL-004', name: '925 银', category: '贵金属', measure: 'weight', swatch: '#bfc3c8', fineness: 925, refPrice: 900, priceSource: '虚拟参考价 2026-10-12', lossRate: 10 },
+  { id: 'YL-005', name: '白钻配石', category: '钻石', measure: 'stone', swatch: '#eef3f8', refPrice: 500000, priceSource: '按批次采购价，无公开行情', lossRate: 20 },
+  { id: 'YL-006', name: '黄彩钻主石', category: '彩钻', measure: 'stone', swatch: '#f2c94c', refPrice: 3500000, priceSource: '逐粒采购价，无公开行情', lossRate: 0 },
+  { id: 'YL-007', name: '珐琅釉料', category: '工艺材料', measure: 'weight', swatch: '#5b8fd6', refPrice: 2000, priceSource: '虚拟参考价 2026-10-12', lossRate: 100 },
+  { id: 'YL-008', name: '链扣配件', category: '配件', measure: 'piece', swatch: '#a9adb3', refPrice: 1500, priceSource: '虚拟参考价 2026-10-12', lossRate: 0 },
+  { id: 'YL-009', name: '16K 金', category: '贵金属', measure: 'weight', swatch: '#c8a26e', refPrice: 50000, priceSource: '虚拟参考价，成色与标注待核', lossRate: 8, pending: true },
+  { id: 'YL-010', name: '24K 金', category: '贵金属', measure: 'weight', swatch: '#e0b83c', refPrice: 82000, priceSource: '虚拟参考价，成色与标注待核', lossRate: 5, pending: true },
 ];
 
 export const suppliers: readonly Supplier[] = [
@@ -736,7 +743,7 @@ export function checkBalance(check: Check): void {
   check(status('PC-001') === '已结清' && status('PC-002') === '在制' && status('PC-004') === '待核对', '批次状态推算不对');
 
   // 设计稿第 10 节第 9 条：临时加一种原料（铂金）和一个批次，推算和检查照常工作
-  const platinum: Material = { id: 'YL-099', name: '铂金', category: '贵金属', measure: 'weight', fineness: 950, refPrice: 30000, priceSource: '注入测试', lossRate: 5 };
+  const platinum: Material = { id: 'YL-099', name: '铂金', category: '贵金属', measure: 'weight', swatch: '#dcdfe2', fineness: 950, refPrice: 30000, priceSource: '注入测试', lossRate: 5 };
   const ptBatch: Batch = { id: 'PC-099', material: 'YL-099', supplier: 'GY-001', receivedAt: '2026-10-12', qty: { mg: 10000 }, price: 29000 };
   const ptLeft: Movement = { id: 'LS-099', batch: 'PC-099', kind: '余料', mg: 10000, at: '2026-10-12', note: '注入测试' };
   const withPt: Db = { ...db, materials: [...db.materials, platinum], batches: [...db.batches, ptBatch], movements: [...db.movements, ptLeft] };
@@ -997,7 +1004,10 @@ Run: `git checkout -- app/src/data/seed.ts`，再跑一次检查回到通过。
 - Create: `app/src/ui/Section.tsx`
 - Create: `app/src/ui/DataList.tsx`
 - Create: `app/src/ui/Drawer.tsx`
+- Create: `app/src/ui/MaterialBadge.tsx`
+- Create: `app/src/ui/ShareBar.tsx`
 - Create: `app/src/styles/ui.css`
+- Modify: `app/src/styles/tokens.css`（两处）
 - Modify: `app/src/main.tsx`
 
 组件只管显示，不碰数据；状态色走 `tone-*` 类，两套主题共用。本任务没有页面用到它们，只验构建；Task 6 在浏览器里验。
@@ -1254,7 +1264,114 @@ export function Drawer({ title, closeHref, children }: { title: string; closeHre
 }
 ```
 
-- [ ] **Step 9: 写 `app/src/styles/ui.css`**
+- [ ] **Step 9: 写 `app/src/ui/MaterialBadge.tsx`**
+
+图标只按计量方式分三种，所以新原料不用改这里；色标颜色来自数据。
+
+```tsx
+import type { ReactNode } from 'react';
+import type { Material, Measure } from '../data/model.ts';
+import { materialLabel } from './format.ts';
+
+/** 计量方式图标：按重量是砝码，按粒是宝石，按件是链扣 */
+const ICONS: Record<Measure, ReactNode> = {
+  weight: (
+    <>
+      <circle cx="8" cy="3.5" r="2" />
+      <path d="M4.5 6.5h7l2 7.5h-11z" />
+    </>
+  ),
+  stone: <path d="M4.5 2.5h7l3 3.5L8 14 1.5 6zM1.5 6h13" />,
+  piece: (
+    <>
+      <rect x="1.5" y="5" width="8" height="6" rx="3" />
+      <rect x="6.5" y="5" width="8" height="6" rx="3" />
+    </>
+  ),
+};
+
+/** 原料徽章：色标是原料本色（数据里的 swatch），图标按计量方式，新原料只填颜色就能显示。 */
+export function MaterialBadge({ material }: { material: Material }) {
+  return (
+    <span className="material">
+      <span className="swatch" style={{ background: material.swatch }} aria-hidden="true">
+        <svg viewBox="0 0 16 16" width="14" height="14">
+          {ICONS[material.measure]}
+        </svg>
+      </span>
+      {materialLabel(material)}
+    </span>
+  );
+}
+```
+
+- [ ] **Step 10: 写 `app/src/ui/ShareBar.tsx`**
+
+颜色跟着类别固定（`slot`），不按大小排；为零的段不画；精确数值由页面另用文字给出，色条只管一眼看比例。
+
+```tsx
+export interface Share {
+  key: string;
+  /** 类别色序号 1–6（tokens.css 的 --series-N），跟着类别固定，不按大小排 */
+  slot: number;
+  value: number;
+  /** 图例上的名称 */
+  name: string;
+  /** 数值文字，用在悬停提示和读屏说明里 */
+  text: string;
+}
+
+/** 占比色条：一条按比例分段的横条加图例；为零的段不画。精确数值由页面另用文字给出。 */
+export function ShareBar({ shares, label }: { shares: readonly Share[]; label: string }) {
+  const parts = shares.filter(s => s.value > 0);
+  if (parts.length === 0) return null;
+  return (
+    <div className="share">
+      <div className="share-bar" role="img" aria-label={`${label}：${parts.map(s => `${s.name} ${s.text}`).join('，')}`}>
+        {parts.map(s => (
+          <span key={s.key} title={`${s.name} ${s.text}`} style={{ flexGrow: s.value, background: `var(--series-${s.slot})` }} />
+        ))}
+      </div>
+      <ul className="legend">
+        {parts.map(s => (
+          <li key={s.key}>
+            <i style={{ background: `var(--series-${s.slot})` }} />
+            {s.name}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+```
+
+- [ ] **Step 11: `app/src/styles/tokens.css` 加图表类别色**
+
+深色那组（`:root, :root[data-theme='dark']`）在 `--shadow: 0 12px 32px rgb(0 0 0 / 0.45);` 下面加：
+
+```css
+  /* 图表类别色：按固定顺序给类别，不按大小排；已用 dataviz 校验器对 --surface 校验（色盲区分、亮度、对比） */
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
+  --series-5: #d55181;
+  --series-6: #008300;
+```
+
+浅色那组（`:root[data-theme='light']`）在 `--shadow: 0 12px 32px rgb(28 36 48 / 0.18);` 下面加：
+
+```css
+  /* 浅色下 3、4、5 号对白底不足 3:1，用到时必须旁边有文字数值或图例 */
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --series-4: #eda100;
+  --series-5: #e87ba4;
+  --series-6: #008300;
+```
+
+- [ ] **Step 12: 写 `app/src/styles/ui.css`**
 
 抽屉按 `.desktop-frame` 定位（Task 5 给它加 `position: relative`），所以不随列表滚动；宽度给侧栏留出 240px。
 
@@ -1322,6 +1439,21 @@ export function Drawer({ title, closeHref, children }: { title: string; closeHre
 .chips button { padding: 2px 10px; background: var(--surface); border: 1px solid var(--border); border-radius: 999px; color: var(--text-2); font-size: 13px; cursor: pointer; }
 .chips button[aria-pressed='true'] { border-color: var(--link); color: var(--link); }
 
+/* 原料徽章：色标是原料本色，图标按计量方式 */
+.material { display: inline-flex; align-items: center; gap: 6px; }
+.swatch { flex: none; display: inline-grid; place-items: center; width: 22px; height: 22px; border: 1px solid var(--border); border-radius: 50%; color: rgb(0 0 0 / 0.62); }
+.swatch svg { fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linejoin: round; }
+
+/* 占比色条：段与段之间留 2px 底色缝，两端 4px 圆角 */
+.share { margin: 4px 0 12px; }
+.share-bar { display: flex; gap: 2px; height: 16px; }
+.share-bar span { flex-basis: 0; min-width: 3px; }
+.share-bar span:first-child { border-radius: 4px 0 0 4px; }
+.share-bar span:last-child { border-radius: 0 4px 4px 0; }
+.share-bar span:only-child { border-radius: 4px; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 6px 0 0; padding: 0; color: var(--text-2); font-size: 12px; list-style: none; }
+.legend i { display: inline-block; width: 10px; height: 10px; margin-right: 4px; border-radius: 2px; vertical-align: -1px; }
+
 /* 平衡式与警示 */
 .equation { margin: 0 0 8px; font-variant-numeric: tabular-nums; }
 .alert { margin: 0 0 8px; padding: 6px 10px; border: 1px solid var(--bad); border-radius: 8px; color: var(--bad); font-size: 13px; }
@@ -1332,7 +1464,7 @@ export function Drawer({ title, closeHref, children }: { title: string; closeHre
 .drawer-body { flex: 1; min-height: 0; overflow-y: auto; padding: 12px 16px 24px; }
 ```
 
-- [ ] **Step 10: `app/src/main.tsx` 引入样式**
+- [ ] **Step 13: `app/src/main.tsx` 引入样式**
 
 在 `import './styles/shell.css';` 下面加一行：
 
@@ -1340,18 +1472,18 @@ export function Drawer({ title, closeHref, children }: { title: string; closeHre
 import './styles/ui.css';
 ```
 
-- [ ] **Step 11: 检查与构建**
+- [ ] **Step 14: 检查与构建**
 
 Run: `npm --prefix app run check`
 Expected: `检查通过：路由、岗位、偏好、链接、数据、平衡、成本。`（链接规则会扫到新文件，里面没有手写 `#/`。）
 Run: `npm --prefix app run build`
 Expected: 通过。
 
-- [ ] **Step 12: 提交**
+- [ ] **Step 15: 提交**
 
 ```bash
-git add app/src/ui app/src/styles/ui.css app/src/main.tsx
-git commit -m "feat(app): add shared list, drawer, stat, timeline and stage components"
+git add app/src/ui app/src/styles/ui.css app/src/styles/tokens.css app/src/main.tsx
+git commit -m "feat(app): add shared list, drawer, badge, share bar and timeline components"
 ```
 
 ---
@@ -1598,7 +1730,7 @@ git commit -m "feat(app): open desktop detail pages in a drawer over their list"
 - Create: `app/src/pages/inventory/BatchDetail.tsx`
 - Modify: `app/src/pages/registry.ts`（整体替换）
 
-两页只用通用组件和 `calc.ts`：类别筛选项从数据里取，平衡式按 `DIMS` 出行，数字全部来自推算函数，所以新原料不用改页面。
+两页只用通用组件和 `calc.ts`：类别筛选项从数据里取，原料用徽章显示，平衡式按 `DIMS` 出行，色条按该计量方式的第一个维度画（宝石按粒数），数字全部来自推算函数，所以新原料不用改页面。
 
 - [ ] **Step 1: 写 `app/src/pages/inventory/BatchList.tsx`**
 
@@ -1609,7 +1741,8 @@ import type { BatchBalance, BatchStatus } from '../../data/calc.ts';
 import { db } from '../../data/seed.ts';
 import { detailHref } from '../../routes.ts';
 import { DataList } from '../../ui/DataList.tsx';
-import { materialLabel, priceText, qtyText } from '../../ui/format.ts';
+import { priceText, qtyText } from '../../ui/format.ts';
+import { MaterialBadge } from '../../ui/MaterialBadge.tsx';
 import { StatusTag } from '../../ui/StatusTag.tsx';
 import type { Tone } from '../../ui/StatusTag.tsx';
 
@@ -1644,7 +1777,7 @@ export function BatchList() {
         rowKey={b => b.batch.id}
         columns={[
           { label: '批次', render: b => <a href={detailHref('/inventory/batches/:id', b.batch.id)}>{b.batch.id}</a> },
-          { label: '原料', render: b => materialLabel(b.material) },
+          { label: '原料', render: b => <MaterialBadge material={b.material} /> },
           { label: '来源', render: b => get(db.suppliers, b.batch.supplier).name },
           { label: '采购价', num: true, render: b => (b.batch.stones ? '逐粒计价' : priceText(b.material.measure, b.batch.price)) },
           { label: '原量', num: true, render: b => qtyText(b.material.measure, b.batch.qty) },
@@ -1670,7 +1803,9 @@ import { db } from '../../data/seed.ts';
 import { detailHref, href } from '../../routes.ts';
 import { DataList } from '../../ui/DataList.tsx';
 import { carats, dimText, materialLabel, priceText, qtyText, yuan } from '../../ui/format.ts';
+import { MaterialBadge } from '../../ui/MaterialBadge.tsx';
 import { Fields, Section } from '../../ui/Section.tsx';
+import { ShareBar } from '../../ui/ShareBar.tsx';
 import { StageBar } from '../../ui/StageBar.tsx';
 import { Stat } from '../../ui/Stat.tsx';
 import type { Tone } from '../../ui/StatusTag.tsx';
@@ -1703,6 +1838,8 @@ export function BatchDetail({ params }: PageProps) {
   const { material, parts } = balance;
   const { measure } = material;
   const supplier = get(db.suppliers, batch.supplier);
+  // 色条按该计量方式的第一个维度画：重量按毫克，宝石和配件按粒数、件数
+  const dim = DIMS[measure][0];
 
   const usage = db.tasks.flatMap(task =>
     task.usage
@@ -1758,7 +1895,7 @@ export function BatchDetail({ params }: PageProps) {
         <StageBar stages={STAGES} current={STAGE_OF[batchStatus(balance)]} />
         <Fields
           items={[
-            ['原料', <a href={href('/inventory/materials')}>{material.name}</a>],
+            ['原料', <a href={href('/inventory/materials')}><MaterialBadge material={material} /></a>],
             ['类别', material.category],
             ['供应商', supplier.name],
             ['入库日期', batch.receivedAt],
@@ -1770,9 +1907,13 @@ export function BatchDetail({ params }: PageProps) {
 
       <Section title="平衡">
         {!balance.balanced && <p className="alert">去向合计对不上采购原量，核对库存流水和生产领料。</p>}
-        {DIMS[measure].map(dim => (
-          <Equation key={dim} balance={balance} dim={dim} />
+        {DIMS[measure].map(d => (
+          <Equation key={d} balance={balance} dim={d} />
         ))}
+        <ShareBar
+          label={`${batch.id} 去向`}
+          shares={OUTLETS.map((o, i) => ({ key: o, slot: i + 1, value: parts[o][dim], name: o, text: dimText(measure, dim, parts[o][dim]) }))}
+        />
         <div className="stats">
           {OUTLETS.map(o => (
             <Stat key={o} label={o} value={qtyText(measure, parts[o])} tone={parts[o].mg > 0 || parts[o].count > 0 ? OUTLET_TONE[o] : undefined} />
@@ -1856,7 +1997,7 @@ Expected: 通过。
 - [ ] **Step 5: 浏览器冒烟**
 
 身份老板、手机视图，打开 `#/inventory/batches`。
-Expected: 筛选条为"全部／贵金属／钻石／彩钻／工艺材料"；7 张卡片，PC-001 显示"¥780.00/克、100 g、余量 5 g、已结清"；点 PC-001 进详情，平衡式为 `100 g ＝ 成品耗用 90 g ＋ 余料 5 g ＋ 回收料 3 g ＋ 确认损耗 2 g`。控制台无报错。
+Expected: 筛选条为"全部／贵金属／钻石／彩钻／工艺材料"；7 张卡片，原料带色标徽章，PC-001 显示"¥780.00/克、100 g、余量 5 g、已结清"；点 PC-001 进详情，平衡式为 `100 g ＝ 成品耗用 90 g ＋ 余料 5 g ＋ 回收料 3 g ＋ 确认损耗 2 g`，下面的色条分 4 段，图例同名。控制台无报错。
 
 - [ ] **Step 6: 提交**
 
@@ -1880,9 +2021,9 @@ Run: `npm --prefix app run build` → 通过。
 
 | 地址 | 应看到 |
 |---|---|
-| `#/inventory/batches` | 7 张卡片；点"钻石"只剩 PC-004，点"全部"恢复 |
-| `#/inventory/batches/PC-001` | 状态"已结清"，阶段条停在"结清"；`100 g ＝ 成品耗用 90 g ＋ 余料 5 g ＋ 回收料 3 g ＋ 确认损耗 2 g`；去向记录 8 条，按日期从"采购入库"排到 LS-003 |
-| `#/inventory/batches/PC-004` | 状态"待核对"；两行平衡式 `60 粒 ＝ 成品耗用 48 粒 ＋ 余料 10 粒 ＋ 确认损耗 1 粒 ＋ 待核对 1 粒`、`3.00 ct ＝ 成品耗用 2.40 ct ＋ 余料 0.50 ct ＋ 确认损耗 0.05 ct ＋ 待核对 0.05 ct`；"待核对"指标卡为警示色 |
+| `#/inventory/batches` | 7 张卡片，原料带色标徽章（金色、银灰、白钻近白、黄彩钻黄、珐琅蓝），图标按计量方式（金属和珐琅是砝码，钻石是宝石）；点"钻石"只剩 PC-004，点"全部"恢复 |
+| `#/inventory/batches/PC-001` | 状态"已结清"，阶段条停在"结清"；`100 g ＝ 成品耗用 90 g ＋ 余料 5 g ＋ 回收料 3 g ＋ 确认损耗 2 g`；色条 4 段，悬停显示"成品耗用 90 g"等；去向记录 8 条，按日期从"采购入库"排到 LS-003 |
+| `#/inventory/batches/PC-004` | 状态"待核对"；两行平衡式 `60 粒 ＝ 成品耗用 48 粒 ＋ 余料 10 粒 ＋ 确认损耗 1 粒 ＋ 待核对 1 粒`、`3.00 ct ＝ 成品耗用 2.40 ct ＋ 余料 0.50 ct ＋ 确认损耗 0.05 ct ＋ 待核对 0.05 ct`；"待核对"指标卡为警示色；色条按粒数分 4 段，1 粒的两段也看得见 |
 | `#/inventory/batches/PC-005` | 采购价"逐粒计价，均价 ¥33,750.00/克拉"；单粒主石两行：ZS-2026-0101 已领用 · RW-008，ZS-2026-0102 在库 |
 | `#/inventory/batches/PC-002` | 状态"在制"；`50 g ＝ 余料 29.7 g ＋ 在制 20 g ＋ 待核对 0.3 g` |
 | `#/inventory/batches/PC-999` | "找不到批次 PC-999。" |
@@ -1899,7 +2040,7 @@ Run: `npm --prefix app run build` → 通过。
 
 - [ ] **Step 4: 主题与岗位**
 
-- 深、浅两套主题下，标签、指标卡、阶段条、时间线圆点颜色都能分清，文字可读。
+- 深、浅两套主题下，标签、指标卡、阶段条、时间线圆点、色条各段颜色都能分清，文字可读；白钻配石的近白色标在浅色主题下有边线、看得出来。
 - 身份切到会计，打开 `#/inventory/batches` → "本岗位看不到这个模块"。
 - 切到采购 → 页面顶部"本岗位范围：原料目录、供应商、采购单、批次"；切到门店顾问 → "本岗位范围：可售成品"。
 
@@ -1909,7 +2050,7 @@ Run: `npm --prefix app run build` → 通过。
 
 ```ts
 // materials 末尾
-  { id: 'YL-011', name: '铂金', category: '贵金属', measure: 'weight', fineness: 950, refPrice: 30000, priceSource: '临时注入', lossRate: 5 },
+  { id: 'YL-011', name: '铂金', category: '贵金属', measure: 'weight', swatch: '#dcdfe2', fineness: 950, refPrice: 30000, priceSource: '临时注入', lossRate: 5 },
 // batches 末尾
   { id: 'PC-008', material: 'YL-011', supplier: 'GY-001', receivedAt: '2026-10-12', qty: { mg: 10000 }, price: 29000 },
 // movements 末尾
@@ -1917,7 +2058,7 @@ Run: `npm --prefix app run build` → 通过。
 ```
 
 Run: `npm --prefix app run check` → 仍是 `检查通过：…`。
-浏览器：批次列表多出 PC-008"铂金（950‰）、¥290.00/克、10 g、余量 10 g、未领用"，"贵金属"筛选里有它；详情平衡式 `10 g ＝ 余料 10 g`，阶段条停在"采购入库"。页面代码没改。原料目录和用料表两页在第 3 批，届时再做一次同样的注入。
+浏览器：批次列表多出 PC-008"铂金（950‰）、¥290.00/克、10 g、余量 10 g、未领用"，徽章是浅灰色标加砝码图标，"贵金属"筛选里有它；详情平衡式 `10 g ＝ 余料 10 g`，色条只有"余料"一段，阶段条停在"采购入库"。页面代码没改。原料目录和用料表两页在第 3 批，届时再做一次同样的注入。
 Run: `git checkout -- app/src/data/seed.ts`，再跑一次检查回到通过。
 
 - [ ] **Step 6: 控制台**
