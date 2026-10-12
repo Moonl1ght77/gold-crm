@@ -1,3 +1,4 @@
+import { checkLinks } from './checks/links.ts';
 import { checkPrefs } from './checks/prefs.ts';
 import { checkRoles } from './checks/roles.ts';
 import { checkRoutes } from './checks/routes.ts';
@@ -7,6 +8,7 @@ const sections: Array<[string, (check: Check) => void]> = [
   ['路由', checkRoutes],
   ['岗位', checkRoles],
   ['偏好', checkPrefs],
+  ['链接', checkLinks],
 ];
 
 const failures: string[] = [];
