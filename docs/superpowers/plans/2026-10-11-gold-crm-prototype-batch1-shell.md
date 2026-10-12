@@ -561,7 +561,7 @@ export function checkRoles(check: Check): void {
 
   for (const id of ['boss', 'gm']) {
     const r = roles.find(x => x.id === id);
-    check(Boolean(r) && navModules.every(m => canSee(r!, m.key) === (m.key !== 'system')), `${r?.name ?? id}：应除系统设置外全部可看`);
+    check(Boolean(r) && navModules.every(m => canSee(r!, m.key)) && r!.access.system === 'view', `${r?.name ?? id}：应全部可看，系统设置只看`);
   }
 }
 ```
@@ -625,19 +625,19 @@ export interface Role {
   external: boolean;
 }
 
-/** 老板、总经理：除系统设置外全部可看，main 里列的是主要工作区 */
-function allButSystem(main: readonly ModuleKey[]): Partial<Record<ModuleKey, Access>> {
+/** 老板、总经理：全部可看（系统设置只看，2026-10-11 Joe 定），main 里列的是主要工作区 */
+function allModules(main: readonly ModuleKey[]): Partial<Record<ModuleKey, Access>> {
   const access: Partial<Record<ModuleKey, Access>> = {};
   for (const m of navModules) {
-    if (m.key !== 'workbench' && m.key !== 'system') access[m.key] = main.includes(m.key) ? 'main' : 'view';
+    if (m.key !== 'workbench') access[m.key] = main.includes(m.key) ? 'main' : 'view';
   }
   return access;
 }
 
 /** 设计稿第 5 节岗位表 */
 const roleList = [
-  { id: 'boss', name: '老板', group: '管理层', focus: ['超总经理额度的审批', '经营摘要', '重大异常'], access: allButSystem(['dashboard', 'approvals']), tabs: ['dashboard', 'approvals'], external: true },
-  { id: 'gm', name: '总经理', group: '管理层', focus: ['待我审批', '跨部门延期与异常', '交接总览'], access: allButSystem(['approvals']), tabs: ['approvals', 'dashboard'], external: true },
+  { id: 'boss', name: '老板', group: '管理层', focus: ['超总经理额度的审批', '经营摘要', '重大异常'], access: allModules(['dashboard', 'approvals']), tabs: ['dashboard', 'approvals'], external: true },
+  { id: 'gm', name: '总经理', group: '管理层', focus: ['待我审批', '跨部门延期与异常', '交接总览'], access: allModules(['approvals']), tabs: ['approvals', 'dashboard'], external: true },
   { id: 'online-ops', name: '品牌线上运营', group: '销售与门店', focus: ['小程序新线索', '活码数据', '待发素材'], access: { miniapp: 'main', customers: 'main', products: 'view', dashboard: 'view' }, scope: { customers: '活码、话术素材、登记表' }, tabs: ['miniapp', 'customers'], external: true },
   { id: 'store-manager', name: '店长', group: '销售与门店', focus: ['待分配客户', '店长额度内的审批', '本店延期'], access: { customers: 'main', orders: 'main', inventory: 'main', approvals: 'main', dashboard: 'view', hr: 'view' }, scope: { customers: '公海分配', inventory: '本店、调拨', dashboard: '本店', hr: '本店' }, tabs: ['customers', 'orders'], external: true },
   { id: 'advisor', name: '门店顾问', group: '销售与门店', focus: ['待跟进客户', '我的交接', '今日预约'], access: { customers: 'main', orders: 'main', products: 'view', inventory: 'view' }, scope: { inventory: '可售成品' }, tabs: ['customers', 'orders'], external: true },
@@ -1655,8 +1655,8 @@ Run: `npm --prefix app run build` → 通过。
 
 | 岗位 | 底部两个 Tab | 可见模块 |
 |---|---|---|
-| 老板 | 看板、审批 | 除系统设置外全部 12 个 |
-| 总经理 | 审批、看板 | 除系统设置外全部 12 个 |
+| 老板 | 看板、审批 | 全部 12 个，系统设置标"看" |
+| 总经理 | 审批、看板 | 全部 12 个，系统设置标"看" |
 | 品牌线上运营 | 小程序、客户 | 客户与跟进、商品与设计、经营看板、小程序后台 |
 | 店长 | 客户、业务单 | 客户与跟进、业务单、采购与库存、人事与提成、经营看板、审批中心 |
 | 门店顾问 | 客户、业务单 | 客户与跟进、业务单、商品与设计、采购与库存 |
@@ -1677,7 +1677,7 @@ Expected: 每个岗位都与上表一致；有范围说明的岗位（如店长�
 - [ ] **Step 3: 拦截与跳转**
 
 - 身份切到会计，打开 `#/wecom/sidebar` → 显示"本岗位无外部客户"；切到门店顾问 → 显示侧边栏占位页。
-- 身份切到老板，打开 `#/system/ai` → 显示"本岗位看不到这个模块"，按钮回工作台。
+- 身份切到会计，打开 `#/system/ai` → 显示"本岗位看不到这个模块"，按钮回工作台；切到老板 → 显示 AI 接入占位页，桌面侧栏里系统设置标"看"。
 - 打开 `#/nope` → 自动跳到 `#/workbench`。
 - 打开 `#/finance/deposits`（老板）→ 页面和说明里都有"※ 本页待商家核实"。
 - 打开 `#/customers/KH-001` → 手机顶栏有返回箭头，模块切换条高亮"客户列表"。
