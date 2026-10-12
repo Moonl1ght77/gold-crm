@@ -8,3 +8,5 @@ demo/node_modules/
 demo/dist/
 demo/.vite/
 demo/evidence/
+app/node_modules/
+app/dist/
