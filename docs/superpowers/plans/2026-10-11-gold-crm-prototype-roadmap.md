@@ -2,6 +2,8 @@
 
 > 依据：`docs/superpowers/specs/2026-10-11-gold-crm-clickable-prototype-design.md`（Joe 2026-10-11 审阅通过）。
 > 分支：`claude/clickable-prototype`。本文件只排批次，每批开工前另写详细计划。
+>
+> **状态（2026-10-11 Joe 定）**：第 1、2 批已完成；第 3–7 批搁置。需求理清前不把虚拟演示给商家看，讲思路用 `docs/设计思路-讲解版.md`。
 
 ## 为什么分批
 
